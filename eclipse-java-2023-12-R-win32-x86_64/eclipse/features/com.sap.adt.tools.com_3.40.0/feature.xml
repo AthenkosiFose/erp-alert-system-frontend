@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.tools.com"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+      <description>
+            %description
+      </description>
+
+      <copyright>
+            %copyright
+      </copyright>
+
+      <license url="">
+      %license
+   </license>
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco1"
+            download-size="169"
+            install-size="510"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco1.ui"
+            download-size="258"
+            install-size="554"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco2"
+            download-size="47"
+            install-size="115"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco2.ui"
+            download-size="50"
+            install-size="85"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco3"
+            download-size="44"
+            install-size="103"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.com.sco3.ui"
+            download-size="57"
+            install-size="102"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.red.core"
+            download-size="81"
+            install-size="186"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.red.core.ui"
+            download-size="54"
+            install-size="116"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.iam.utils"
+            download-size="88"
+            install-size="226"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.cloud.iam.utils.ui"
+            download-size="135"
+            install-size="315"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.sod1"
+            download-size="76"
+            install-size="198"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.sod1.ui"
+            download-size="109"
+            install-size="216"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.sod2"
+            download-size="76"
+            install-size="209"
+            version="3.40.0"
+            unpack="false" />
+
+      <plugin
+            id="com.sap.adt.com.sod2.ui"
+            download-size="182"
+            install-size="380"
+            version="3.40.0"
+            unpack="false" />
+
+</feature>

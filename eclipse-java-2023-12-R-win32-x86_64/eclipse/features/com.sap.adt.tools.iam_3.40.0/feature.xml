@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.tools.iam"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia1"
+         download-size="104"
+         install-size="283"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia1.ui"
+         download-size="147"
+         install-size="296"
+         version="3.40.0"
+         unpack="false"/>   
+
+	<plugin
+         id="com.sap.adt.cloud.iam.sia2"
+         download-size="73"
+         install-size="180"
+         version="3.40.0"
+         unpack="false"/>
+
+	<plugin
+         id="com.sap.adt.cloud.iam.sia2.ui"
+         download-size="146"
+         install-size="281"
+         version="3.40.0"
+         unpack="false"/>
+	
+	<plugin
+         id="com.sap.adt.cloud.iam.sia5"
+         download-size="45"
+         install-size="105"
+         version="3.40.0"
+         unpack="false"/>
+
+	<plugin
+         id="com.sap.adt.cloud.iam.sia5.ui"
+         download-size="73"
+         install-size="127"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia6"
+         download-size="92"
+         install-size="242"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia6.ui"
+         download-size="159"
+         install-size="336"
+         version="3.40.0"
+         unpack="false"/>
+    
+   <plugin
+         id="com.sap.adt.cloud.iam.sia7"
+         download-size="42"
+         install-size="96"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia7.ui"
+         download-size="56"
+         install-size="100"
+         version="3.40.0"
+         unpack="false"/>
+	
+	<plugin
+         id="com.sap.adt.cloud.iam.sia8"
+         download-size="51"
+         install-size="122"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia8.ui"
+         download-size="81"
+         install-size="148"
+         version="3.40.0"
+         unpack="false"/>   
+		 
+	<plugin
+         id="com.sap.adt.cloud.iam.sia9"
+         download-size="43"
+         install-size="101"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cloud.iam.sia9.ui"
+         download-size="54"
+         install-size="97"
+         version="3.40.0"
+         unpack="false"/>   
+	
+	<plugin
+         id="com.sap.adt.iam.auth"
+         download-size="75"
+         install-size="203"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.iam.auth.ui"
+         download-size="148"
+         install-size="296"
+         version="3.40.0"
+         unpack="false"/>
+	
+	<plugin
+         id="com.sap.adt.iam.suso"
+         download-size="127"
+         install-size="337"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.iam.suso.ui"
+         download-size="267"
+         install-size="550"
+         version="3.40.0"
+         unpack="false"/>
+		 
+	<plugin
+         id="com.sap.adt.iam.sush"
+         download-size="91"
+         install-size="233"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.iam.sush.ui"
+         download-size="177"
+         install-size="373"
+         version="3.40.0"
+         unpack="false"/>
+
+</feature>

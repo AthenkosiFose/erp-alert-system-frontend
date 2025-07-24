@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.wda.core"
+      label="%featureName"
+      version="1.183.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <plugin
+         id="com.sap.adt.wda.controller"
+         download-size="452"
+         install-size="1191"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.application"
+         download-size="148"
+         install-size="383"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.application.ui"
+         download-size="201"
+         install-size="455"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.view"
+         download-size="1001"
+         install-size="14616"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.view.ui"
+         download-size="810"
+         install-size="1792"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.controller.ui"
+         download-size="1003"
+         install-size="2264"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.mapping.framework"
+         download-size="61"
+         install-size="124"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.common.ui"
+         download-size="339"
+         install-size="614"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.guide.doc.user"
+         download-size="3125"
+         install-size="4453"
+         version="1.175.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.guide.doc.user.ext"
+         download-size="11"
+         install-size="22"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.window"
+         download-size="53"
+         install-size="118"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.window.ui"
+         download-size="26"
+         install-size="59"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.fpm"
+         download-size="75"
+         install-size="148"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.component"
+         download-size="73"
+         install-size="173"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.component.ui"
+         download-size="127"
+         install-size="276"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.componentinterface"
+         download-size="37"
+         install-size="80"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.componentinterface.ui"
+         download-size="26"
+         install-size="56"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.configuration.ui"
+         download-size="25"
+         install-size="55"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.interfaceview.ui"
+         download-size="33"
+         install-size="76"
+         version="1.183.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.wda.interfaceview"
+         download-size="39"
+         install-size="86"
+         version="1.183.0"
+         unpack="false"/>
+
+</feature>

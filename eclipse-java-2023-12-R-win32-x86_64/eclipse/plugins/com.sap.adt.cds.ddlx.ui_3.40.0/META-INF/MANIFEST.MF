@@ -1,0 +1,724 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.adt.cds.ddlx.ui;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.29.0,4.0.0
+ )",org.eclipse.compare;bundle-version="[3.9.200,4.0.0)",org.eclipse.c
+ ore.expressions;bundle-version="[3.9.100,4.0.0)",org.eclipse.core.run
+ time;bundle-version="[3.29.0,4.0.0)",org.eclipse.core.resources;bundl
+ e-version="[3.19.100,4.0.0)",org.eclipse.core.resources.semantic;bund
+ le-version="[0.7.0,1.0.0)",org.eclipse.debug.core;bundle-version="[3.
+ 21.100,4.0.0)",org.eclipse.debug.ui;bundle-version="[3.18.100,4.0.0)"
+ ,org.eclipse.jface;bundle-version="[3.31.0,4.0.0)",org.eclipse.jface.
+ text;bundle-version="[3.24.100,4.0.0)",org.eclipse.ltk.core.refactori
+ ng;bundle-version="[3.14.100,4.0.0)",org.eclipse.ui;bundle-version="[
+ 3.204.0,4.0.0)",org.eclipse.ui.editors;bundle-version="[3.17.0,4.0.0)
+ ",org.eclipse.ui.ide;bundle-version="[3.21.100,4.0.0)",org.eclipse.ui
+ .navigator;bundle-version="[3.12.100,4.0.0)",org.eclipse.ui.workbench
+ ;bundle-version="[3.130.0,4.0.0)",org.eclipse.ui.workbench.texteditor
+ ;bundle-version="[3.17.100,4.0.0)",org.eclipse.emf.ecore;bundle-versi
+ on="[2.35.0,3.0.0)",org.eclipse.emf.edit;bundle-version="[2.19.0,3.0.
+ 0)",org.eclipse.emf.transaction;bundle-version="[1.9.2,2.0.0)",org.ec
+ lipse.core.databinding;bundle-version="[1.13.100,2.0.0)",org.eclipse.
+ core.databinding.observable;bundle-version="[1.13.100,2.0.0)",org.ecl
+ ipse.jface.text;bundle-version="[3.24.100,4.0.0)",com.sap.adt.cds.ddl
+ ;bundle-version="[3.40.0,4.0.0)",com.sap.adt.communication;bundle-ver
+ sion="[3.40.0,4.0.0)",com.sap.adt.compatibility;bundle-version="[3.40
+ .0,4.0.0)",com.sap.adt.destinations;bundle-version="[3.40.0,4.0.0)",c
+ om.sap.adt.tools.abapsource;bundle-version="[3.40.0,4.0.0)",com.sap.a
+ dt.tools.abapsource.parser;bundle-version="[3.40.0,4.0.0)",com.sap.ad
+ t.tools.core;bundle-version="[3.40.0,4.0.0)",com.sap.adt.tools.core.u
+ i;bundle-version="[3.40.0,4.0.0)",com.sap.adt.project;bundle-version=
+ "[3.40.0,4.0.0)",com.sap.adt.projectexplorer.ui;bundle-version="[3.40
+ .0,4.0.0)",com.sap.adt.ris.search;bundle-version="[3.40.0,4.0.0)",com
+ .sap.adt.ris.search.ui;bundle-version="[3.40.0,4.0.0)",com.sap.adt.to
+ ols.abapsource.ui;bundle-version="[3.40.0,4.0.0)",com.sap.adt.transpo
+ rt;bundle-version="[3.40.0,4.0.0)",com.sap.adt.transport.ui;bundle-ve
+ rsion="[3.40.0,4.0.0)",com.sap.adt.util;bundle-version="[3.40.0,4.0.0
+ )",com.sap.adt.util.ui;bundle-version="[3.40.0,4.0.0)",com.sap.rnd.rn
+ drt;bundle-version="[1.108.0,2.0.0)",com.sap.rnd.ui;bundle-version="[
+ 1.108.0,2.0.0)",com.sap.adt.cds.base.ddl;bundle-version="[3.40.0,4.0.
+ 0)",com.sap.adt.cds.base.ddl.ui;bundle-version="[3.40.0,4.0.0)",com.s
+ ap.adt.cds.ddl.ui;bundle-version="[3.40.0,4.0.0)",com.sap.adt.docu.ui
+ ;bundle-version="[3.40.0,4.0.0)",com.sap.adt.cds.ddlx;bundle-version=
+ "[3.40.0,4.0.0)",com.sap.adt.ddic.ui;bundle-version="[3.40.0,4.0.0)",
+ com.sap.adt.destinations.ui;bundle-version="[3.40.0,4.0.0)",com.sap.a
+ dt.blues.core.ui;bundle-version="[3.40.0,4.0.0)",com.sap.adt.blues.co
+ re;bundle-version="[3.40.0,4.0.0)",org.eclipse.emf.databinding.edit;b
+ undle-version="[1.8.0,2.0.0)",org.eclipse.jface.databinding;bundle-ve
+ rsion="[1.15.100,2.0.0)",com.sap.adt.logging;bundle-version="[3.40.0,
+ 4.0.0)",org.eclipse.core.databinding.property;bundle-version="[1.10.1
+ 00,2.0.0)",com.sap.adt.project.ui;bundle-version="[3.40.0,4.0.0)",com
+ .sap.adt.cds.common;bundle-version="[3.40.0,4.0.0)",com.sap.adt.cds.c
+ ommon.ui;bundle-version="[3.40.0,4.0.0)",org.eclipse.core.databinding
+ .beans;bundle-version="[1.10.100,2.0.0)",com.sap.adt.ddic;bundle-vers
+ ion="[3.40.0,4.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %BundleProvider_xtxt
+Import-Package: com.sap.adt.logging
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Eclipse-ExtensibleAPI: true
+Bundle-Name: %Bundle-Name_xgrp
+Bundle-Version: 3.40.0
+Bundle-Localization: plugin
+Build-Jdk-Spec: 17
+Created-By: Maven Archiver 3.6.0
+Eclipse-BundleShape: dir
+
+Name: com/sap/adt/cds/ddlx/ui/internal/docu/DdlxHelpContentProvider$Se
+ lectionContext.class
+SHA-256-Digest: Bbi2bu43D4QEbdNQAAWVHKMnhepsc9EWWxw6sic4DDM=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$6.class
+SHA-256-Digest: sbA2qhzB4vu8LJOTdYGSAH1JxNMXHYt9nNrnJU1ttxA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$2.class
+SHA-256-Digest: M1YvcXRRG3Y3/Zgy3OORHEFWT6CSQ19zSWwD3xSL1rw=
+
+Name: plugin.xml
+SHA-256-Digest: BabmmghyCNaMNU8Drj0IphxKvi2VrwjZzfENYxUF5mU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ AnnotationPropagation$1.class
+SHA-256-Digest: xNvPrnVw8fTGpkhxo3lNgO1AONSeCOGi/fCszbTPcmk=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/messages/Messages.class
+SHA-256-Digest: ibiLqfTDSkogKZwnn80ykJsFhELpzFKQZxWZJBJz4UA=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/JobWithUIAccessA
+ tEnd.class
+SHA-256-Digest: 2TiKhHC26UiXUZDuMZ95bOnnYY+mRbzjhmYovWr95Xc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ AnnotationPropagationInput.class
+SHA-256-Digest: xJAoyVkzxqGL0Enndsv4Ln6J5UteEyvnUyHyy97aXSA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/docu/DdlxHelpContentProvider.cl
+ ass
+SHA-256-Digest: 4r3omlXPbnYedzHNK+hkMQsjZQFkpIVoJUsz67+Tvg0=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$ProposalComparator.class
+SHA-256-Digest: bwOnBAHaLmXrPyyArZy3DKKCrHkd0oPDf89d2l+UtgA=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$3.class
+SHA-256-Digest: 9zWnPxdpaJvVxRrsvwAbEGPTngsjSV4MZq1g29KmpTM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/AbstractDdlxSou
+ rceWizard.class
+SHA-256-Digest: IxPep7hSO6gOTVxl7IjWSENL/GNtxqIcpa7/0m6qFUY=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$ObjectReferenceContentProposal.class
+SHA-256-Digest: lKGNCFymIkqMImPDoMAQHTDJ8HTDVgf0vwhfkdE36ig=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxAddAllowMetadataEx
+ tensionsInBaseViewProposal.class
+SHA-256-Digest: r/F2jllLLrh0j47E29BKCaR71bCiXBA4ulZM7Z8MUP4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/CopyDdlxSourceW
+ izard.class
+SHA-256-Digest: 2oIv1k3wTllZ7IS0xxz5wMM3arGwhRS5CVU9IB1a7kA=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$2$1.class
+SHA-256-Digest: UE87KiNikjIVUaUnFPuJoVKmxFawZdrVfiak3rRO5Xc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourcePage$2.class
+SHA-256-Digest: tDN56ucgy73BW0DeX9EvnXw4l43K2/CWuVcBgiy4suM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxSourceQuickAssistP
+ rocessor.class
+SHA-256-Digest: Nh19OBeXyOX9VAYF/+n/NdP20Lk8YB4x8fArNUqlh5Y=
+
+Name: icons/wizban/ddlx_wiz.png
+SHA-256-Digest: i8IAISJBUYzDwCMRAMOu40oHaPercl4e+1CJkayyns8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/templates/DdlxTemplateAccess$1.
+ class
+SHA-256-Digest: kpiSQUTgcTxG0ChBVxXR2zaA6gotUBVIks6lOaiVZiQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxNavigationServices.
+ class
+SHA-256-Digest: fZtwN7BuIDFZ+Ni4qA24VkJVOTVMs6ZTNskmFnWg0yM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1$5.class
+SHA-256-Digest: cbhxyWMkzE5mBh8PsojuytP4LHj62iopX2zF/W/TUck=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourceEditor.class
+SHA-256-Digest: u2fg90yHGtEVjsvUiDipykPc0IGDbXlSwgckl4X0nOU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ AnnotationPropagation.class
+SHA-256-Digest: fqe8CuasI46zGq5w7XHn/34lyABQq7K38BGof6M+Yno=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/internal/propertytesters/Enable
+ mentTester.class
+SHA-256-Digest: FaGyWfxeNJ7My6HggdFsz7mMidtWXInvWtOlXb3iXT4=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$1.class
+SHA-256-Digest: 2mWUF7nyf+jBpA06nHERcjU/wZTmscuybdM9zGh0NUE=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/compare/messages.properties
+SHA-256-Digest: pf9mqtQkIo4CwTC0lKMvDxDZbLTMj+yptYBtay/mgHw=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_CUSTOM_EN
+ TITY_STATEMENT.txt
+SHA-256-Digest: tEKQAvBYzHdB7BGvqYJ1e3M+wX0n96qtuiREEfNqdIg=
+
+Name: icons/view/annot_propagation_view.png
+SHA-256-Digest: a2qq/nJmtsimdueun8mivgICZcGJ6UnzND0OcS1Penc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlAnnotatio
+ nsToDdlxExtractor.class
+SHA-256-Digest: pN3tg8T3+MzF9l7w8ECrlMfII6DpMcCh0ZH2RkZdqmU=
+
+Name: templates/templates.properties
+SHA-256-Digest: RXb54e22u56FNGA5n6nTFUCE50Ol3PCesHkAnodQuMs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$5.class
+SHA-256-Digest: bhuRYCGydDcLbUNtO9JZugtfwqNFnWVTFkoykxe1lF8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxAnnotationsAndComme
+ ntsFilterProvider.class
+SHA-256-Digest: jB7Kjw1BOAqBo2bYPcATXjqlAAgF7lSVyDocpFrnTXg=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtracto
+ rService$InputType.class
+SHA-256-Digest: Z8EktKybL49+D/1lgZKkGNaAZZSgHc8wKWxj13HmSyg=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/navigation/DdlxSourceSemanticPo
+ sitionResolver.class
+SHA-256-Digest: RaZJj580pk5KZZ92nsbQFGwCv6ibxJcWapVsQe5LaD0=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_PROJECTIO
+ N_VIEW_STATEMENT.txt
+SHA-256-Digest: 5YeqxCcUjf1bsxDGUs3ZEg2It8EJwpGVPqGvVXGrCwc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/prettyprinter/messages.
+ properties
+SHA-256-Digest: jOK8MT49vwxMakAsr+82kmjOyV2yyzh3NtnXwC74xcY=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/navigation/DdlxAnnotationPathDe
+ scription.class
+SHA-256-Digest: Wj4KbyrQsI6Ob2w0ACFgXv1du+3t/rT3Phs3jAeTkIg=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$1.class
+SHA-256-Digest: t3XoiMEJuYR/QksKNmd8/Ox3S2kjYc1d7jzcKqVzN2E=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtracto
+ rService$AnnotationTreeNode.class
+SHA-256-Digest: 0o1C1CcKQqN2DWDG3ouqNNDYtDUmfIi/fhzNlqOZbmY=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$8.class
+SHA-256-Digest: JqS87Eg8lUaHshVuvz3/O27MP1vcpQXPZFrVElfqR8g=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$12.class
+SHA-256-Digest: iluhKWLQguU5UMxp6N/LzNFfQ8FVHUkDR7gY2qzvOUY=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourceEditorMatchin
+ gStrategy.class
+SHA-256-Digest: psXlJjxedFo53FOga7H3BLgnCKlG0eQ/kY1Z8CdilRc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/DdlxTemplateSel
+ ectionPage.class
+SHA-256-Digest: 22sRGazkbTq8oXjMQIluIOP0fatiFwdJm1N9Wm2caqI=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/prettyprinter/Messages.
+ class
+SHA-256-Digest: OPQXvf8S5K/cyzt33BoFUtaQ3zhx/bXtMbxt9ilq9Gg=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxSourceMarkerResolu
+ tionGenerator$DdlxSourceQuickfixMarkerResolution.class
+SHA-256-Digest: 1AVsRDLfY3oOYy5sGrcpwmDazmreoD4vhA6Be8BO36c=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/Messages.class
+SHA-256-Digest: O2cfm4toFQd+fCPE+0aSFztmCbiAfTQYJifSjoC7cHA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxWizardTr
+ eeContentProvider.class
+SHA-256-Digest: Ppa5LlCErI3pSt8QkX5fFJJnaq5S8DRR4cNYsdsuLI8=
+
+Name: icons/etool/newddlx_wiz@2x.png
+SHA-256-Digest: S17RNPUHwPTsEG3mRDHYkyFAyEgK7QlcqkBiMcql0Rk=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/handlers
+ /OpenAnnotationPropagationHandler$2.class
+SHA-256-Digest: 2AqX3XR+TLXnDvA9MpTt3quF1uUDC4ObGgauPI8ZRGs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/Messages.cla
+ ss
+SHA-256-Digest: +oKJD8tImEbpqPEMCsUlG9ZnjeDxePuHzWzcrbOH5oI=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourcePage.class
+SHA-256-Digest: 0c1ZQpP30PF1nAX+tyu98PWk8wEQCv48VwXzX8fRAwI=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/templates/DdlxTemplateAccess.cl
+ ass
+SHA-256-Digest: 1aa1ZcnBIcPQFovTLeNpuoyi3UB7UlkLG+LSEfP4UpQ=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$4.class
+SHA-256-Digest: U5O7qdgH5YSkpaLaLDjH87njFhFnN/WdldRqeuJvZiQ=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$8.class
+SHA-256-Digest: N3QquBfBiM1Gh6syFj6lTpH6WBAyPpPz5SVUYi9D3aA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/messages.proper
+ ties
+SHA-256-Digest: II0waHpLoiocVUuP/1eeejsEqkOQhf/HT4poNbBBmvQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxConvertToArrayAnno
+ tationValueProposal.class
+SHA-256-Digest: onVccuMuTqMuj0SN/HMXz47eEbMN6V6dGC9T/WnuhJs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$7.class
+SHA-256-Digest: M8HVei41kU1tT3cuR2gTRrDfRHIuueFbrf9YKR3TnVU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/SourceMenuCo
+ ntributionFactory.class
+SHA-256-Digest: 2wGnOcTu6NTN43h/974abZQnuP0GVkqGcb12+77dEK4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxMasterLanguageCheck
+ Scheduler$SerialRule.class
+SHA-256-Digest: +4BeqleV6OGfRmSBnuZGinvVdILNaT4FPUHoJ8ZMpiA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/templates/DdlxTemplateContextTy
+ pe.class
+SHA-256-Digest: nik0emW6abZ9yL/j/FU6aaoJbw4ILIOhCmOgOcTdO7Q=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/utils/DdlxObjectEventUtil.class
+SHA-256-Digest: MxYJ/KCS/qLNI7Zt9ZqTi+tx2KdE9wOD7dgsZgsu5Pw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/handlers
+ /OpenAnnotationPropagationHandler.class
+SHA-256-Digest: +SUG+FKzUos3OIQ/wQFNNuuwfM2j1kkYuJ7oFtZMz7g=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/handlers/DdlxOpenWithMenuContri
+ butionFactory.class
+SHA-256-Digest: OPBqUtz5/UpR67PsslSssP1XiFUGNDIUO/AOeWrTPwI=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased.class
+SHA-256-Digest: Y/p+qe3wCxP3VPubHqHGNNA52v1YiqrdhWoVplkXJB4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxWizardTr
+ eeLabelProvider.class
+SHA-256-Digest: SnmnpfruEDVqalJIawxE7NH8qK1vw8qcUQsI8hrfdZU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/compare/Messages.class
+SHA-256-Digest: FPN1OKsPCNVjD7BR6Y+TdaFRTGhTtswfvA18up25rfs=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$IConfigHook.class
+SHA-256-Digest: GgJazRS4gSB9c+u7+qYqPRg/tx+HzDDaS6UtwGrBwp4=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$2.class
+SHA-256-Digest: ulKxDY0Eh2I9qt9bpMVTY2dKCgdNMHN/w6pmU+tCTPQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$6.class
+SHA-256-Digest: myk/x+OJHyGXnbEztwENXGKp5Af5w30l5DlUhxw4nsw=
+
+Name: META-INF/maven/com.sap.adt.tools.cds/com.sap.adt.cds.ddlx.ui/pom
+ .properties
+SHA-256-Digest: Pmsirg4IjrRO8YUcxUgeoC9hWeUWVlrYmcfPvK9solM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourcePage$3.class
+SHA-256-Digest: +BGiLjsLtb2q1njT0bbTm51eSneTqFuQM4RMttiseFk=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxAnnotationNavigatio
+ nHelper.class
+SHA-256-Digest: 4FuxbnuXol7qS6QJo2yDbh9dFcNUPdM7eLjW98IrUHs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$TreeDoubleClickForNavigationListener.class
+SHA-256-Digest: HKnwn+KhHw6PD61kuwHMEQv6BozAQTT8YIhK5GrpTJI=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$9.class
+SHA-256-Digest: yeZLWk5CAiP2J0ZWmRR3wxXu/AaH0dN3RsVxmXo/h6A=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxAnnotationsAndComme
+ ntsFilterProvider$1.class
+SHA-256-Digest: S9CGOFA5sdb+FdXfossVWe3Wi/2FrWTEq2NSCJiuInc=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/ANNOTATE_VIEW_ST
+ ATEMENT.txt
+SHA-256-Digest: l1t/pAry07x6dnYYBTfhQAjT/inT2VLuB9Ao2wvCN6g=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_HIERARCHY
+ _STATEMENT.txt
+SHA-256-Digest: W599cKE1sep9yOoP3AwHB6aIHgszYdi90b1IF4vUhIE=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1.class
+SHA-256-Digest: 3DX0zK3HgsPlrghD7cRQ0gEtPWTqn4ilA1VanifuyFc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/handlers/OpenWithPreHandlerDdls
+ AndDdlx.class
+SHA-256-Digest: ZRw8wouXxbeUvHMqdQDMaMTW6ugLOPx90Ik0smyQK2E=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/prettyprinter/DdlxForma
+ tterTrimDoubleQuotes.class
+SHA-256-Digest: OS0b03RVmarwZodMPiuUQF6hZa2TKd1J1RcwpA95TBM=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$3.class
+SHA-256-Digest: zRpGFvSh9WVT+KiSpwZUA3P5/Xii/ql0pgHBriSX8oc=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/EXTEND_CUSTOM_EN
+ TITY_STATEMENT.txt
+SHA-256-Digest: Yh4p1fTaHpKNyLzlxMsQtZAbI5fSlYwiuoFGsW/iKzY=
+
+Name: icons/obj/ddlx_obj.png
+SHA-256-Digest: Y4XriYJgKQgcdf+ouQNapHcuXYlgkTZoprjRjHl7wPE=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$AnnotationFilter.class
+SHA-256-Digest: xvVGAMkZ9YLaKlER4oqAm18H7rHyGcMsqC8GaBvAbnA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/outline/DdlxSourceOutlineConten
+ tProvider.class
+SHA-256-Digest: VchKdaC3JtUBJWJzbwxNDpThyqi/VlleY4uTVv0WRZM=
+
+Name: icons/view/annot_propagation_view@2x.png
+SHA-256-Digest: h6R68DN8u/7bDJ7wE17ugAKYaBURRbQ+7P8lyBmAckI=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$2.class
+SHA-256-Digest: r6Z+bZm4hpZRe+cDY7fdnwrIK1EtF/v5P4c4n22BwCQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$9.class
+SHA-256-Digest: 3R/Z5WyptsZSmDjIZacFRE+9HbzCOMnMu48DUVCkF1s=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/completion/DdlxCodeElem
+ entInfoService.class
+SHA-256-Digest: qtbXx4zLMB9YPFuJIksOYfym59nwGTXfHCVEOMyfQpQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$ElementLabelProvider.class
+SHA-256-Digest: mlH/4cFw2lNU9NgoUYHOkz8lmIz6uixAIW65E7sHi7c=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$ContentAssistPair.class
+SHA-256-Digest: xvat6GV88A97XcKT2XZCZxPIYSR4Hq4SBS6bGUpbIf4=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_VIEW_STAT
+ EMENT.txt
+SHA-256-Digest: dof2pRbAdX657VBIEUm2Eg3Ri6QXBU7dNd54gixeAZ4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/completion/DdlxCodeComp
+ letionService$DdlxCompletionProposalImpl.class
+SHA-256-Digest: gshQm3kZ3OzFNp8xUdfHzbbK6PsZLFIXslhlSeV5+2c=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/EXTEND_VIEW_STAT
+ EMENT.txt
+SHA-256-Digest: 4Ltb6CeAuDublZtMEFZ1GG3jB/W8SzXJG+4QWbWX4Bs=
+
+Name: plugin.properties
+SHA-256-Digest: ahKjHhpZ36CJk9S3Kej4RN57jPawomIA70RRWibTmGA=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/utils/DdlxTokenUtil.class
+SHA-256-Digest: p8IsGCxx8yM06TlHJZ8ouGMooLxfVtFmkVMe5np9VEw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1$4.class
+SHA-256-Digest: LQkHoCJIvZw7AwZfii/2Z2++jTrXhx6giVtwkZVeIbs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/completion/DdlxCodeComp
+ letionService.class
+SHA-256-Digest: Qr9uYn2oIwHwPf9maZmwO9SQWix7F/H1Y7w//TYYUO0=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/handlers
+ /OpenAnnotationPropagationHandler$1.class
+SHA-256-Digest: bePS8gsbqjakjVaHBMOqEK115fh02J+l79VOQpsmTnM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/utils/DdlxAnnotationInfoParser.
+ class
+SHA-256-Digest: fw5yawTTzRP20G69KW7SBUvOTeWYYpsHTEgNLN8yiLA=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_ABSTRACT_
+ ENTITY_STATEMENT.txt
+SHA-256-Digest: u7Q8S7APrTJfdekVOicU0A16oIL8HPxVgHrFEOQQMYs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxMasterLanguageCheck
+ Scheduler.class
+SHA-256-Digest: K8S2RSIjbNsPpkrpcDzHFINgbWTH6wSIK+fbR3DBu3U=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$1.class
+SHA-256-Digest: B943n165XI+i0LghRltXqtR88ZpyhTjXVQfYoHbUUaw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/SourceMenuCo
+ ntributionFactory$1.class
+SHA-256-Digest: qMhMDMSVsfWI/TWlRN/iYk5htEcOwrQZFzMPm9DGP2M=
+
+Name: fragment.e4xmi
+SHA-256-Digest: Eh5i7SO+dtIr+w52n3Kx4uUA0nam21So93FBckakcmU=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/CreateDialog$2.c
+ lass
+SHA-256-Digest: kF+BP0OPpNqJy4bR2GNwqiWmCzXqcPbIdvf51zUuEd8=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$7.class
+SHA-256-Digest: Yn5fD/SqKZxut6IgeZ3Cm4eoxY14ycLHjT4WDz6iGk0=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$AbstractConfigHook.class
+SHA-256-Digest: ZiaW/G6k/MMcf2I6ZSD0SUmEGvJmNMU953UDKEjW6xk=
+
+Name: icons/wizban/extract_annotations_wiz.png
+SHA-256-Digest: MQucLejOhy3wiFrZoymZvVJ1o4qx+SHWN2uMD8vGNvc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1$1.class
+SHA-256-Digest: ks0bawOD2XAMJtFLkpiq4h0745suHQJY03ZX3wroQAY=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$5.class
+SHA-256-Digest: bqceRO+fwqvhiAODQsAsrU4ILHhqNDgmKGHQqCFMcsc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/NewDdlxSourceWi
+ zard.class
+SHA-256-Digest: 2aSWyJSjsU8iSFaHraR1srcQrNpOF77jRGh89lKDzKw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/templates/DdlxTemplatePreferenc
+ ePage.class
+SHA-256-Digest: bImGb2VCI0phLmjnvhl+Ti1VAI54n48EsewAle2ASqo=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$AnnotationKeyProposalProvider.class
+SHA-256-Digest: 4oXi7CuFwc21BF9ooJkOjHNgASQZX3+XziEiwVptgY0=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$4.class
+SHA-256-Digest: qkn0h0TaGmqr45l+hVwMn9QZskrquZkv0RgbxEvEP+M=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog.class
+SHA-256-Digest: L+2yhFyKiIRdjYRDf9+VqpqgfO+lNUHHQcOsMd1f9Fk=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourcePage$1.class
+SHA-256-Digest: lnLcnLkqx6xWLcCaM8bZVMbrmsnpsNad4ZlJIUs01E8=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$8.class
+SHA-256-Digest: Wj4Sel/MAUV9+gFCG0v/toPICf5yZ7GUEuslCNO5x/8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxAddMetadataLayerAn
+ notationProposal.class
+SHA-256-Digest: SVcYft9GQgXCFBQxcQ854DATvosrHpKGSHaL2jQdymY=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$7.class
+SHA-256-Digest: lVZ29w49O6hCzNrNRuY2hiWNMgK/4POCQLzMrbY/ElI=
+
+Name: META-INF/maven/com.sap.adt.tools.cds/com.sap.adt.cds.ddlx.ui/pom
+ .xml
+SHA-256-Digest: MNCdKAoq4Te/GqgNfC6+jZfdzp3nOs/wWaSRHXbTeuQ=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/CreateDialog$1.c
+ lass
+SHA-256-Digest: 9iPCv4MFGdl7fAeLIhbvoUWAqKOjDtO65syf57tD5uM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/menu/contributions/CreateMetaDa
+ taExtensionFromDdlsCommand.class
+SHA-256-Digest: UA1/IAxdiKI99aUM5TjSeDPgoYd3YzsKJrke4+dvedg=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/DdlxCreationWiz
+ ardStrategy.class
+SHA-256-Digest: flWfHFnfH3URPQ5LRC78CJJcGU63jXjzWx3bMbQ5+U0=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1$3.class
+SHA-256-Digest: yfDjdCbVkYoAG/9C2DVfJxqzmRAQ+MfbRENj2qi9fvw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$10.class
+SHA-256-Digest: 3iOs2+1VSKR1IP3fx823drMpj1T0gwRXENjchLjUtB8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSecondaryObjectInfo
+ MarkerUpdater$1.class
+SHA-256-Digest: AuIsJQXRYvjmvCELkV9z8uKloesiarI3BJruxLQOJ9I=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/EXTEND_ABSTRACT_
+ ENTITY_STATEMENT.txt
+SHA-256-Digest: qlPTHO0d9Foi24XvgVc3eFJMvORmfONlyb6LsZnRWaQ=
+
+Name: icons/etool/newddlx_wiz.png
+SHA-256-Digest: CZedEkJE7KZD3og5i1R7/vfSYArNekpxyrQBeKDoCT8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/quickfix/DdlxSourceMarkerResolu
+ tionGenerator.class
+SHA-256-Digest: y12an3c1KwdwCnx5oZV7oBLiuvsNFPY1PKd3WUSSQc0=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtracto
+ rService.class
+SHA-256-Digest: ncuoCKPrZceDKgwbjxLb0Xb3Dl9DeJT3/UZ4Ey6KrHM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/completion/DdlxCodeComp
+ letionFactory.class
+SHA-256-Digest: MkzgLHwQ0ayegbF2g1mihF48iyOx4o5BUtFif8fKs+E=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ AnnotationPropagation$PropertyChangeListener.class
+SHA-256-Digest: t2lH4OnJA1i/ybrZJXFmwp2kTXAU26VxOueZVwxUoRw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/IDdlxImageFileConstants.class
+SHA-256-Digest: tFSQrYeE2djYB1ReQByqzu4RM0npATpSwDS05WQNTMo=
+
+Name: templates/templates.xml
+SHA-256-Digest: pTF61W6pthIjc+aX8AKJ5ToUuoiVZvCP7S37AdV+WcM=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtracto
+ rService$ElementTreeNode.class
+SHA-256-Digest: rFVYsCOxO34KPpXhjDJdcGlwZN363rqRirDWJKNLgbc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/prettyprinter/DdlxSourc
+ ePrettyPrintHandler.class
+SHA-256-Digest: rqasC6cWQ5pPUkmtabG6dAmSmlLS4WV2/SRJteaY+dE=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/CreateDialog.cla
+ ss
+SHA-256-Digest: UKyzUXY34fyCVZM6Pae98Ylo6Z0A60/HhgqFm/5svAs=
+
+Name: icons/wizban/extract_annotations_wiz@2x.png
+SHA-256-Digest: xe8wZn8MCdM0yApEomyILeHEvh7ftTLHwuDVJMXY4P8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$4.class
+SHA-256-Digest: Qi9Dflz0pqmzbhXTkf0QDxGzWOSt1FHGoiqrkO8zGxg=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/SourceMenuCo
+ ntributionFactory$2.class
+SHA-256-Digest: Q7pqvCbnIjcrQi8PD8LaHP5m6B/Z5TW+vL/70eJ0XK8=
+
+Name: icons/wizban/ddlx_wiz@2x.png
+SHA-256-Digest: 3LyjZAwthSOGG/A9SgPNE83Vhopmus2AksUF8ODeIO4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/completion/DdlxInsertAl
+ lElementsUtil.class
+SHA-256-Digest: dddPIvvLM8oMfZeazDjg7efKG81ZjpACa7YxsyrrDZY=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$5.class
+SHA-256-Digest: Tv4ukBhCQ1Nqjh7HQx4RIi/OqH52C1u1X9xmc65jha4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxMasterLanguageCheck
+ Job.class
+SHA-256-Digest: sSfNLcI9RVoAwWFT8aGlSu6DwG2WfKv8QcraFYYoamQ=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/outline/DdlxSourceOutlineLabelP
+ rovider.class
+SHA-256-Digest: lioqRg9m6ll83Kri50wLTr1l597WZwc6Y/XaKO+7cxg=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/EXTEND_VIEW_ENTI
+ TY_STATEMENT.txt
+SHA-256-Digest: Yo9VZO0ggZgV3EDiNzCm7rhXf02kJNz5X4Q4cR87E+U=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/compare/DdlxViewerCreator.class
+SHA-256-Digest: fP+cVifeFpZhPC0bG9FMDe5a94y4eC+xEahh4IVl53M=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ AnnotationPropagationMatchingStrategy.class
+SHA-256-Digest: L7sqDrsacNfFsMxm+4L4SvY1tu7plrhHbAub6sQNwFw=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$ElementProposalProvider.class
+SHA-256-Digest: A1xZ+7RTadKt1wO2paR/W3oI2vcQQD4gnUl8Gl6YEE4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxMaxIdentifierWordLe
+ ngthDetector.class
+SHA-256-Digest: zY1ZE6Vmod6cxMdLeyzEMfqXDDI6oELTSC/YG8OIa1s=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$11.class
+SHA-256-Digest: u1ZgfiVcnR1EBcQ7lkKAeywXQIx8x8x+04WQH75vw+o=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlAnnotatio
+ nsToDdlxExtractor$1.class
+SHA-256-Digest: 6PawY4BrFfUV3bTuO5yn9w/+7lWpuSb1v5Byqe9JUyU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard.class
+SHA-256-Digest: EUecsBDaxdnHOvS+uAt70IT4mS8pbBqnyYi8vbb5Z6U=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/ProfileNameValid
+ ationUtil.class
+SHA-256-Digest: UrTtMFs0fPJLAqpoISh7sLwGB2UC7NSr3s8XyUkgSMs=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$6.class
+SHA-256-Digest: C+3AksdqwkwPgzBRowEbVLyvMkn7bVBroQhkKaKE91c=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/wizards/newddlx/NewDdlxSourceWi
+ zard$1.class
+SHA-256-Digest: 2OTpzbWfI64wf35Ofg6H2oKkOU/2HLALA/M+IVcbyiE=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/DdlxExtractD
+ dlSourceWizard$1$2.class
+SHA-256-Digest: mICDBACSdg4Fcp463UPI1hypNXfzXWpq6669JgPLV84=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ ConfigurationDialog$5$1.class
+SHA-256-Digest: py8/kEpKhA4kdtP3FOjHNm0kufzPf6+9+kYJRaVhVV0=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSecondaryObjectInfo
+ MarkerUpdater.class
+SHA-256-Digest: Uya0Ajl5fM5+TUHSy8E0JaddQTAJbuQP16Rntniuzm8=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/menu/contributions/CreateMetaDa
+ taExtensionContextMenuOnDdlsNode.class
+SHA-256-Digest: 3Csi6tmcVlMJFq0LRHwZ4tEZrwBZTutcmmCTbBxMPf4=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/editors/DdlxSourceViewerConfigu
+ ration.class
+SHA-256-Digest: 3fNf0akV2tircT10o1yB77fJsMYZcUF/AaudYIOZa/c=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/extractannotations/messages.pro
+ perties
+SHA-256-Digest: IENJeB2Qs7XTAeDVy762U+SU+YK6/9sFkWVJrXOkzOY=
+
+Name: icons/obj/ddlx_obj@2x.png
+SHA-256-Digest: nLdBrybZjw347NYRe5mwYGDPjF5jtckpRnpTa4NGy78=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DEFINE_TABLE_FUN
+ CTION_STATEMENT.txt
+SHA-256-Digest: CEOiiQkyEni1SnXZ0zruJ3S4HCfdszE6X8bAP5I3UPs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationTableLabelProvider.class
+SHA-256-Digest: dlO0APiX3dapqK4vVR0jOCH5XKke6MD3VAh5adcUMWs=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage.class
+SHA-256-Digest: PM2M62+tF5R9wwKcOpM3LLH31r4CNyfy0Zfzj4rxN7w=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationPage$3.class
+SHA-256-Digest: gq+7qXMf5L3CofMRmuI8ip1dNRTi0x5cgNpphOD2ofg=
+
+Name: com/sap/adt/cds/ddl/ui/internal/preferencepages/DdlPrettyPrinter
+ PreferencePagePropertyListBased$7$1.class
+SHA-256-Digest: ZrvluAXS4hrhpssMuWg4IqFnEPZEiN4BtKavulBfYcc=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/annotation/propagation/editors/
+ PropagationTableContentProvider.class
+SHA-256-Digest: bmSEkq2ZIklZGeAw8rqkDLi7QJk74iVD80Ni9+KSLqU=
+
+Name: com/sap/adt/cds/ddlx/ui/internal/messages/messages.properties
+SHA-256-Digest: Odgzdyrew4DdbvKh9G86Zn4yg1X7aFi7ClVDvZvpzaI=
+

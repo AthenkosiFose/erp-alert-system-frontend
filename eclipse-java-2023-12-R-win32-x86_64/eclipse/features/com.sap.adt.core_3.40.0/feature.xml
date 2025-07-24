@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.core"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <includes
+         id="com.sap.adt.connectivity"
+         version="2.46.0"/>
+
+   <includes
+         id="com.sap.adt.fwk.ci"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tm.feature"
+         version="1.187.0"/>
+
+   <includes
+         id="com.sap.adt.tools.base"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools.cds.base"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools.cds"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools.ddic"
+         version="3.40.0"/>
+         
+   <includes
+         id="com.sap.adt.tools.debug"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools.testdoubles"
+         version="1.118.0"/>
+
+   <includes
+         id="com.sap.adt.conn"
+         version="1.122.0"/>
+
+   <includes
+         id="com.sap.adt.datapreview"
+         version="1.170.0"/>
+
+   <includes
+         id="com.sap.adt.tools.com"
+         version="3.40.0"/>
+
+   <includes
+         id="com.sap.adt.tools.iam"
+         version="3.40.0"/>
+
+   <requires>
+      <import feature="com.sap.ide.support.feature" version="1.24.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.sap.adt.abapdev.guide.doc.user"
+         download-size="38653"
+         install-size="49350"
+         version="3.38.2"/>
+
+   <plugin
+         id="com.sap.adt.abapdev.guide.doc.user.ext"
+         download-size="46"
+         install-size="142"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.abap.dev.tools.release.notes"
+         download-size="958"
+         install-size="1359"
+         version="3.38.2"/>
+
+   <plugin
+         id="com.sap.adt.abap.dev.tools.release.notes.ext"
+         download-size="70"
+         install-size="121"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.branding"
+         download-size="18"
+         install-size="93"
+         version="2.46.0"/>
+
+   <plugin
+         id="com.sap.adt.abap.prog.fiori.doc.dev"
+         download-size="8144"
+         install-size="10709"
+         version="3.36.0"/>
+
+   <plugin
+         id="com.sap.adt.abap.prog.rap.doc.dev"
+         download-size="28705"
+         install-size="35516"
+         version="3.38.2"/>
+
+   <plugin
+         id="com.sap.adt.support.ui"
+         download-size="48"
+         install-size="81"
+         version="3.40.0"
+         unpack="false"/>
+         
+
+</feature>

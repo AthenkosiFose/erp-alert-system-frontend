@@ -1,0 +1,71 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: AjnofApExFYh7QKNkuCwtrA1Rbs4o
+ +5mtXhPCLpUaPA=
+SHA-256-Digest-Manifest: 7VfEGZihbSPoGYxZPbpYyIdBe1xOv8iat2NNu8/xO4Y=
+Created-By: 1.8.0_202 (Oracle Corporation)
+
+Name: intro/css/graphics/picto/abap_search_cs.svg
+SHA-256-Digest: xdUyFiJSe8NGsCmJwwwgGaMN3J7UtFZ7ciijvHS9Md8=
+
+Name: cheatsheets/addCodeTemplates.xml
+SHA-256-Digest: Sovh2jq8OnmHFMLST9aIWVA+m82OSMwP8XgzwQzbGHg=
+
+Name: plugin.xml
+SHA-256-Digest: uJBmWLYTqt/CPvzWmZrZ7EAnln+6eJFUAYHpQQysm3U=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abapdev
+ .guide.doc.user.ext/pom.xml
+SHA-256-Digest: mJYoYrCexDcq3K3VVUj2fZ/lIFdvzIeHi3mS8eOfqHk=
+
+Name: intro/css/graphics/picto/abap_project_cs.svg
+SHA-256-Digest: 7X4EalB/Hp1DqKoPxlbT/ocauWkHLOWmEVxoUGMzI4U=
+
+Name: intro/introABAPTutorials.xml
+SHA-256-Digest: 93ah0EbffSpnWSzht/Cbf/4c/w/l0cpUqcgMrORx5OQ=
+
+Name: intro/css/graphics/picto/abap_project_doc.svg
+SHA-256-Digest: kMJ1rmY37KCkdem25neO1mEm3+mUCuHp1BFovnJgiCU=
+
+Name: intro/css/sample.css
+SHA-256-Digest: IhFCXKTsdTO9TfgvAJAaTEYkcVM8AunjBBLeRl2WFi4=
+
+Name: cheatsheets/createABAPproject.xml
+SHA-256-Digest: XmTi27x0pl7Wp/JvVqoOC+cT6VxPwfIA+ZfsIWbUQLU=
+
+Name: intro/css/graphics/picto/abap_standard_cs.svg
+SHA-256-Digest: Uy5TDfMDvwKx5uKtnosF2eMLXPZgTzAqvDE3YSxZh3Q=
+
+Name: intro/css/graphics/picto/abap_standard_doc.svg
+SHA-256-Digest: 1f4F5BeGVMXHAOlaKu0ssR+mFcyYVTRdUmWeGkyejhc=
+
+Name: book.css
+SHA-256-Digest: rhCkW+52SxyFc612uwyWov/3WEoiQ2/un6RBzyD3cds=
+
+Name: cheatsheets/createABAPprograms.xml
+SHA-256-Digest: nb9byGf/4oGXk0tk/Q0XpqyBOQDozBPY+D6//i5T+F8=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abapdev
+ .guide.doc.user.ext/pom.properties
+SHA-256-Digest: 0uKp4UtWp37homS28gIgCJkwE12ZoGA0G9OEHBoALrE=
+
+Name: intro/introABAPOverview.xml
+SHA-256-Digest: soGviB8/rLu4IOUVXY8AWlElA/Ff/LUmX/E9ruY2Y40=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: ZJ/QHIYfnlLmDVw5V3OkSCXp8VKo5AtaYAn7TAF5xDA=
+
+Name: cheatsheets/addDevelopmentObjectsToProject.xml
+SHA-256-Digest: 6in/sOXsI4+ReUBRk2StC4cYCRhM65dwsglvMdgTo8k=
+
+Name: cheatsheets/createDDICdataelements.xml
+SHA-256-Digest: z9/MP8901eQIeF6rEGtV57blNyPrw165dkV1FXC6c+0=
+
+Name: cheatsheets/createABAPclasses.xml
+SHA-256-Digest: KWdCwZ6Gw+PFGFYz1x+JhsFZSpnsZ1co9Vi+c0+MjqI=
+
+Name: intro/introABAPAccessibility.xml
+SHA-256-Digest: lLonV33BI5ZQVXKexvuJYL73QGBSYEWfbaMqNAc0a2s=
+
+Name: cheatsheets/searchForDevelopmentObjects.xml
+SHA-256-Digest: k4llaZm6Y9EhIfJY1q/SrVxxAhg16T9KN85mM75ShI8=
+

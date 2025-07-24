@@ -1,0 +1,68 @@
+/* src/components/Dashboard.css */
+.erp-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a1e3f;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  color: #4fc3f7;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  color: #cfd8dc;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background-color: #13294b;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 800px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #394867;
+  font-size: 1rem;
+}
+
+.dashboard-table th {
+  background-color: #0d2747;
+  color: #4fc3f7;
+}
+
+.status-icon {
+  font-size: 1.2rem;
+}
+
+.status-icon.pass {
+  color: #4caf50;
+}
+
+.status-icon.fail {
+  color: #e53935;
+}

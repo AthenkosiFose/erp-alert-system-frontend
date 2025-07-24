@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.tools.ddic"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+<!--
+   <requires>
+      <import feature="com.sap.adt.tools" version="3.0.0.qualifier" match="greaterOrEqual"/>
+   </requires>
+-->
+   <plugin
+         id="com.sap.adt.ddic"
+         download-size="115"
+         install-size="248"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.ddic.ui"
+         download-size="375"
+         install-size="723"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.ddic.dependencyrule"
+         download-size="65"
+         install-size="160"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.dependencyrule.ui"
+         download-size="84"
+         install-size="173"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.enqu"
+         download-size="71"
+         install-size="171"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.enqu.ui"
+         download-size="105"
+         install-size="217"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.structure"
+         download-size="144"
+         install-size="345"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.structure.ui"
+         download-size="164"
+         install-size="358"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.table"
+         download-size="15"
+         install-size="35"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.table.ui"
+         download-size="59"
+         install-size="110"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.dataelement"
+         download-size="123"
+         install-size="299"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.dataelement.ui"
+         download-size="162"
+         install-size="344"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.domain"
+         download-size="71"
+         install-size="180"
+         version="3.40.0"/>
+
+   <plugin
+         id="com.sap.adt.ddic.domain.ui"
+         download-size="133"
+         install-size="279"
+         version="3.40.0"/>	
+   
+   <plugin
+         id="com.sap.adt.ddic.tabletype"
+         download-size="83"
+         install-size="216"
+         version="3.40.0"/>	
+   
+   <plugin
+         id="com.sap.adt.ddic.tabletype.ui"
+         download-size="157"
+         install-size="333"
+         version="3.40.0"/>	
+
+   <plugin
+         id="com.sap.adt.ddic.table.settings"
+         download-size="83"
+         install-size="210"
+         version="3.40.0"/>	
+   
+   <plugin
+         id="com.sap.adt.ddic.table.settings.ui"
+         download-size="76"
+         install-size="169"
+         version="3.40.0"/>			 
+
+   <plugin
+         id="com.sap.adt.ddic.typegroup"
+         download-size="57"
+         install-size="119"
+         version="3.40.0"/>	
+   
+   <plugin
+         id="com.sap.adt.ddic.typegroup.ui"
+         download-size="68"
+         install-size="121"
+         version="3.40.0"/>	
+		 
+</feature>

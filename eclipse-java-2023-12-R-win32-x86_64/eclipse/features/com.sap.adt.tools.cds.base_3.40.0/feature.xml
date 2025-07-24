@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.tools.cds.base"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <plugin
+         id="com.sap.adt.cds.base.ddl"
+         download-size="609"
+         install-size="1580"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.cds.base.ddl.ui"
+         download-size="264"
+         install-size="1699"
+         version="3.40.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<introContent>
+	<extensionContent id="com.sap.adt.intro.abapnews"
+		style="css/sample.css" name="ABAP Community" path="whatsnew/@">
+		<group style-id="content-group" id="content-group">
+			<link  label="ABAP Development Tools"
+				url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.sap.adt.abap.dev.tools.release.notes/html/c06db644fcdb4be6a318be9938ff9692.html"
+				id="core_abapstandard_doc" style-id="content-link">
+				<text>Find out about significant changes and new features in this release</text>
+			</link>
+		</group>
+	</extensionContent>
+</introContent>

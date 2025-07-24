@@ -1,0 +1,23 @@
+Frontend commands
+
+npx create-react-app erp-alert-system   # frontend   
+npm install axios                       # frontend  
+npm install react-router-dom            # frontend  
+npm install bootstrap                   # frontend  
+npm install react-icons                 # frontend  
+npm install chart.js                    # frontend  
+npm install tailwindcss postcss autoprefixer  # frontend  
+npx tailwindcss init -p                 # frontend  
+
+
+Backend commands
+
+npm init -y                             # backend  
+npm install express                     # backend  
+npm install cors                        # backend  
+npm install mysql2                      # backend  
+npm install nodemon --save-dev          # backend  
+
+Python commands
+
+pip install mysql-connector-python      # backend (python API)

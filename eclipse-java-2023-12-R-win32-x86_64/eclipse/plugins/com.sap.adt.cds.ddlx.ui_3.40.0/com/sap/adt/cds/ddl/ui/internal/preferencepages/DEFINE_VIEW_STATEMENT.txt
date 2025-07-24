@@ -1,0 +1,42 @@
+@AbapCatalog.sqlViewName: 'S_SAMPLE_1'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Sample: Define View Statement'
+define view sample_define_view
+  with parameters p_carrid:s_carrid
+  as select from scarr as carriers
+            left outer join spfli
+              on spfli.carrid = carriers.carrid and
+                 spfli.fltype <> 'X' 
+            left outer join sflight
+              on sflight.carrid = spfli.carrid and
+                 sflight.connid = spfli.connid
+            left outer join sairport as apfrom
+               on apfrom.id = spfli.airpfrom
+            left outer join sairport as apto
+               on apto.id = spfli.airpto
+
+  { key carriers.carrname as carrname,
+    @EndUserText.label: 'Flight No.'
+    @EndUserText.quickInfo: 'Flight No.'
+    key spfli.connid  as fid,
+    @EndUserText.label: 'Date'
+    sflight.fldate as fldate,
+    @EndUserText.label: 'From'
+    apfrom.name as airpfrom,
+    @EndUserText.label: 'To'
+    apto.name as airpto,
+    @EndUserText.label: 'Duration'
+    spfli.fltime as ftime,
+    @EndUserText.label: 'Distance'
+    spfli.distance as distance,
+    @EndUserText.label: 'Distance Unit'
+    spfli.distid as unit,
+    case
+      when spfli.distance > 5000 then 'long'
+      when spfli.distance between 5000 and 1000 then 'medium'
+      else 'short' 
+    end as disttext }
+  where carriers.carrid = :p_carrid and spfli.distid = 'KM'
+  group by carrname, spfli.connid, sflight.fldate, apfrom.name, apto.name, spfli.fltime, distance, spfli.distid
+  having min( spfli.fltime ) > 50

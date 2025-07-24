@@ -1,0 +1,21 @@
+@ClientDependent: false 
+@EndUserText.label: 'test'
+define table function sample_define_table_function 
+  with parameters
+    clnt : abap.clnt, 
+    carrid : s_carr_id 
+  returns { 
+    @EndUserText.label : 'Client'
+    key client : s_mandt;   
+    @EndUserText.label : 'Carrier'
+    key carrname : s_carrname; 
+    @EndUserText.label : 'Connection'
+    connid : abap.numc(4); 
+    @EndUserText.label : 'From'
+    @EndUserText.quickInfo: 'Origin City'
+    cityfrom : s_from_cit; 
+    @EndUserText.label : 'To'
+    @EndUserText.quickInfo: 'Destination City'
+    cityto : s_to_city; } 
+  implemented by method   cl_demo_functions=>get_something;
+  

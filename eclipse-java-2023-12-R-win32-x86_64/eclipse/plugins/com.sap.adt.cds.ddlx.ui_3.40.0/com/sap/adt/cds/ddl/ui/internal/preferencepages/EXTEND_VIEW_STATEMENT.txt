@@ -1,0 +1,22 @@
+@AbapCatalog.sqlViewAppendName: 'S_SAMPLE_2'
+@EndUserText.label: 'Sample: Extend View Statement'
+extend view sample_define_view with sample_extend_view
+  association to sflight as _sflight
+    on spfli.carrid = _sflight.carrid and
+       spfli.connid = _sflight.connid and
+       spfli.fltime >= 100 and
+       _sflight.seatsocc <> 0
+{ 
+  case spfli.distid
+    when 'MI' then
+      unit_conversion( quantity => spfli.distance, 
+                       source_unit => cast( 'MI' as abap.unit(3) ),
+                       target_unit => cast( 'KM' as abap.unit(3) )
+                      )
+    else spfli.distance
+  end as distinkm,
+  _sflight.planetype as planetype,
+  _sflight.seatsmax as seatsmax,
+  _sflight.seatsocc as seatsocc
+}
+group by carrname, spfli.connid, sflight.fldate, apfrom.name, apto.name, spfli.fltime, distance, spfli.distid, distinkm, _sflight.planetype, _sflight.seatsmax, _sflight.seatsocc 

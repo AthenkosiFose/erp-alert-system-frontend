@@ -1,0 +1,101 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.adt.featureexplorer.ui;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.204.0,4.0.0)",org.ec
+ lipse.core.runtime;bundle-version="[3.29.0,4.0.0)",com.sap.adt.tools.
+ core.ui;bundle-version="[3.40.0,4.0.0)",org.eclipse.core.resources;bu
+ ndle-version="[3.19.100,4.0.0)",com.sap.adt.featureexplorer;bundle-ve
+ rsion="[3.40.0,4.0.0)",com.sap.adt.tools.core.base;bundle-version="[3
+ .40.0,4.0.0)",com.sap.adt.util;bundle-version="[3.40.0,4.0.0)",org.ec
+ lipse.e4.ui.css.swt.theme;bundle-version="[0.14.100,1.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor_xtxt
+Import-Package: com.sap.adt.logging
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Eclipse-ExtensibleAPI: true
+Bundle-Name: %Bundle-Name_xgrp
+Bundle-Version: 3.40.0
+Bundle-ClassPath: featureexplorer_ui.jar
+Bundle-Localization: plugin
+Bundle-Activator: com.sap.adt.featureexplorer.ui.internal.Activator
+Build-Jdk-Spec: 17
+Created-By: Maven Archiver 3.6.0
+Eclipse-BundleShape: dir
+
+Name: plugin.xml
+SHA-256-Digest: wqd1nSVrFcvH5lv6MqmzGbGqm0icLlzC1FyrJKGXWcU=
+
+Name: html/stage2_empty@2x.png
+SHA-256-Digest: 8gk7snFLSJLDdCBeqUjLkshqH+MkxwH1GgaJsFhRgq8=
+
+Name: html/intro@2x.png
+SHA-256-Digest: bDH+aQPos21OcvNxNNIOsVlTQ7m57shvNcbAPG3OzDU=
+
+Name: html/stage3_empty.png
+SHA-256-Digest: co0n9JVnsgHbzEm1YMsgBfi3yxxWZIiXSHte7NFX7EU=
+
+Name: html/stage1_empty@2x.png
+SHA-256-Digest: 6sJHWHvz7WhqqDhjROOIzdR5aZQkxXSYD9sSK5pE1M0=
+
+Name: html/stage2_filled@2x.png
+SHA-256-Digest: 4pAs34AqhB/DN58iygW5E9yxjQAvfvt5UJ+8d5Ef6Nc=
+
+Name: html/stage2_filled.png
+SHA-256-Digest: afypBzle5RTU6/7KLBvejmbd/mG2gpG7q1jvR+ADGJM=
+
+Name: icons/view/feature_explorer_view.png
+SHA-256-Digest: n+xZ8hjC8/CbyBWr7MTzhWZAfPmcWk2L/gbKPlWY7rI=
+
+Name: html/stage3_empty@2x.png
+SHA-256-Digest: iJknDT/qAAJaYfBEa/TLaIS7JcxzG0hj1QIve/mloqM=
+
+Name: html/tourcomplete@2x.png
+SHA-256-Digest: jCZ4/9bgdWHCCt98JXkSlBHYbcRntBlDGvbxVtVzkZ4=
+
+Name: html/stage1_filled@2x.png
+SHA-256-Digest: s4Nebz1BAAlv9n5YxCbF//qmQhA3WEV1tmMf4/R3Fho=
+
+Name: html/stage3_filled.png
+SHA-256-Digest: fD0xD2fYuGyv3A94Q/AyaH41Z+PJkmjM0VWjeN6UlFo=
+
+Name: plugin.properties
+SHA-256-Digest: dqEqVkX6t8fOnzHvrFb5paLq3Zf7AZH44JxZziIc5ow=
+
+Name: icons/view/feature_explorer_view@2x.png
+SHA-256-Digest: B0IPvclfGAcFANTeDKSPZiPCfOFyiuOEkz0abKxJ5kw=
+
+Name: html/tourcomplete.png
+SHA-256-Digest: 0CRNeYGubXwAVsPiES4lv6SQFiIaYvqHJCVzStXoD6I=
+
+Name: html/stage2_empty.png
+SHA-256-Digest: +uK2L1ACV5LbmOVbabzTjtttu6cnYVI8U4Q4B54CqEY=
+
+Name: html/stage3_filled@2x.png
+SHA-256-Digest: JCEbCf0wYw7LrvCEFKjEnx3XXG+cJMQ8LafIq1KPYXA=
+
+Name: css/e4-dark_featureexplorer_preferencestyle.css
+SHA-256-Digest: 15aO6V1Itr2C5Km2Va9rC0YWgho+bMGzwXnC7DsgaJs=
+
+Name: featureexplorer_ui.jar
+SHA-256-Digest: eRrN2VhSnvuYD0uwdrDGGsX9fzq7mMvZkjuW9i5BUo4=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.featureexplorer.ui/
+ pom.xml
+SHA-256-Digest: e1pMVXoa9cPZZBE1WtUcg5M1inYEOta8AYlni+aX8r4=
+
+Name: html/intro.png
+SHA-256-Digest: CDNS/kKzZP4u1bvCw0Ex2qJjy6XCMKyR2aSVgDJWwyU=
+
+Name: html/stage1_filled.png
+SHA-256-Digest: BRstA3lTQrqqbfDDVQ6tB0sqkKFsc0fxptdZrEyn9XM=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.featureexplorer.ui/
+ pom.properties
+SHA-256-Digest: MvXSHZNsjfPSSUkmQOqtsMe62MMqj6o+uzIBF0didbU=
+
+Name: html/featureExplorerView.html
+SHA-256-Digest: zUQDlchOPZY0RBVrrKqyWQCkx5vLhyJczQSKPdZQMoM=
+
+Name: html/stage1_empty.png
+SHA-256-Digest: ozAj+xWUIj6QBusVrZvyq7AOQThA33eciMe5VPbPM+s=
+

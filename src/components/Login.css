@@ -1,0 +1,134 @@
+/* Login.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e2a38, #3a4a63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;  /* Needed for footer positioning */
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px 25px;        /* Reduced padding */
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  width: 260px;              /* Narrower width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title {
+  margin-bottom: 20px;
+  color: #1e2a38;
+  font-size: 24px;           /* Slightly smaller font */
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  width: 100%;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px 12px;        /* Slightly less padding */
+  margin-bottom: 15px;       /* Reduced margin */
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #3a84ff;
+  box-shadow: 0 0 6px #3a84ff;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;             /* Match input size */
+  background-color: #3a84ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;           /* Slightly smaller font */
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #2a6edc;
+}
+
+.login-error {
+  color: #ff4d4f;
+  margin-bottom: 15px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+/* Forgot Password Link */
+
+.forgot-password {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.forgot-password a {
+  font-size: 14px;
+  color: #3a84ff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #2a6edc;
+  text-decoration: underline;
+}
+.forgot-text {
+  font-size: 10px; /* Shrinks the text */
+}
+
+/* Footer logo and copyright */
+
+.login-footer {
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  user-select: none;
+  background: rgba(30, 42, 56, 0.7);
+  padding: 6px 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  z-index: 1000;
+}
+
+.footer-logo {
+  height: 20px;
+  width: auto;
+}
+.footer-text {
+  font-size: 8px; /* Shrinks the text */
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+  <output>
+    <rootpage>com.sap.adt.abap.dev.tools.release.notes</rootpage>
+    <sap.dita.src.pattern>^(.*)\.([^.]*)$</sap.dita.src.pattern>
+    <sap.dita.loio.pattern>^loio(.*)$</sap.dita.loio.pattern>
+    <sap.dita.dest.pattern>html/\1.html</sap.dita.dest.pattern>
+    <sap.dita.O2O.pattern>PLUGINS_ROOT/{output_rootpage}/html/$1.html</sap.dita.O2O.pattern>
+    <sap.dita.O2O.t2t.pattern />
+  </output>
+</build>

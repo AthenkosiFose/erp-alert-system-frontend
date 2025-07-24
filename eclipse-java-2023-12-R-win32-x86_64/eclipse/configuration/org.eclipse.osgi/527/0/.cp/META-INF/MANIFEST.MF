@@ -1,0 +1,89 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.adt.abapdev.guide.doc.user.ext;singleton:
+ =true
+Bundle-Name: %pluginName
+Bundle-Version: 3.40.0
+Require-Bundle: org.eclipse.ui.intro;bundle-version="[3.7.100,4.0.0)",
+ org.eclipse.ui.intro.universal;bundle-version="[3.5.100,4.0.0)",org.e
+ clipse.ui.cheatsheets;bundle-version="[3.8.100,4.0.0)",com.sap.adt.do
+ cu.ui;bundle-version="[3.40.0,4.0.0)",com.sap.adt.logging;bundle-vers
+ ion="[3.40.0,4.0.0)",com.sap.adt.tools.core.ui;bundle-version="[3.40.
+ 0,4.0.0)",org.eclipse.core.runtime;bundle-version="[3.29.0,4.0.0)",or
+ g.eclipse.core.resources;bundle-version="[3.19.100,4.0.0)",org.eclips
+ e.ui.navigator;bundle-version="[3.12.100,4.0.0)",org.eclipse.jface.te
+ xt;bundle-version="[3.24.100,4.0.0)",com.sap.adt.projectexplorer.ui;b
+ undle-version="[3.40.0,4.0.0)",com.sap.adt.project.ui;bundle-version=
+ "[3.40.0,4.0.0)",com.sap.adt.tools.core.ui;bundle-version="[3.40.0,4.
+ 0.0)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-Vendor: %providerName
+Build-Jdk-Spec: 17
+Created-By: Maven Archiver 3.6.0
+
+Name: intro/css/graphics/picto/abap_search_cs.svg
+SHA-256-Digest: q1am/vK96cZIjI5lsYNeyxUxlFqRKi0/GOpEkA7GRmM=
+
+Name: cheatsheets/addCodeTemplates.xml
+SHA-256-Digest: nHOSQOYOXstm+aGlpfiKCA3G21ZbtX+1RVK1OcRlO2U=
+
+Name: plugin.xml
+SHA-256-Digest: eImfv4/XPCNPzgCxYr5zsFhv4a2wv/4P0M9aqcxytWw=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abapdev
+ .guide.doc.user.ext/pom.xml
+SHA-256-Digest: e4twJaBKfZkfJC4r+u2E3YHTG3+2/vlaxI21aEFKMP8=
+
+Name: intro/css/graphics/picto/abap_project_cs.svg
+SHA-256-Digest: eNXH7ldzLgqPYWBqwoQ76DWjarBuYdOklmG2mXRm0i0=
+
+Name: intro/introABAPTutorials.xml
+SHA-256-Digest: pJke1UMaBmnyczpV8w5YvGv26egndBRwY+CPWccbjkg=
+
+Name: intro/css/graphics/picto/abap_project_doc.svg
+SHA-256-Digest: tiuHw70B9h5a6mXoQN1EvNVoOWABF+2C3/d6pvySwBM=
+
+Name: intro/css/sample.css
+SHA-256-Digest: T7ipnblkqPZ/xFJN4vL6jWxVL7jBeIZRGdWgtg5Kqq0=
+
+Name: cheatsheets/createABAPproject.xml
+SHA-256-Digest: nPcXgP/jlvqlEiixY621xRucQNqewQY/i+APDxQ0B+Q=
+
+Name: intro/css/graphics/picto/abap_standard_cs.svg
+SHA-256-Digest: lt0oLst1hSY1Jr4xI8/5OCkyPr6zvl0vAt2f+MKPJpE=
+
+Name: intro/css/graphics/picto/abap_standard_doc.svg
+SHA-256-Digest: 4qEwJws7g8u6fhCgXTNFIOhKu+/XxWHiTE0y8LKkMzw=
+
+Name: book.css
+SHA-256-Digest: zk+eb2dEGSnA4OPrvNVXwiCm4MzyX/Cm8sCIBV7okq0=
+
+Name: cheatsheets/createABAPprograms.xml
+SHA-256-Digest: bBlZXEwLt3xF++yY4WgktL3kphJXKEoC2DLh77JXJz8=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abapdev
+ .guide.doc.user.ext/pom.properties
+SHA-256-Digest: +kY5NcLha15HBxBq35FYS0KQsxSAsPNOkfKyCY4Hrg8=
+
+Name: intro/introABAPOverview.xml
+SHA-256-Digest: dIgmQ0yOeJip2jYO4uvLUscJP6mXGEbLt+UB1sdrvbM=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: JM+fsdQO677jHmiSAA06d4RCJc4rZZbyKtLYPFuS+b8=
+
+Name: cheatsheets/addDevelopmentObjectsToProject.xml
+SHA-256-Digest: wtUPCnILO1IoUAv5s9Ko/2fGLRcbuaHR0BNqKD8XigM=
+
+Name: cheatsheets/createDDICdataelements.xml
+SHA-256-Digest: 150p5HvmjWxBDgLeMj6UBjb3w98Qj0bxrnFzNO5krmk=
+
+Name: cheatsheets/createABAPclasses.xml
+SHA-256-Digest: wiNBpflBjUeyWgNTLV7ZcFsjvKE4j+ecFwScRZvxrGU=
+
+Name: intro/introABAPAccessibility.xml
+SHA-256-Digest: umNZjuQ4cEb8H4whADbfVpqSeB/mBKlU5o2SAmMqS24=
+
+Name: cheatsheets/searchForDevelopmentObjects.xml
+SHA-256-Digest: TAnakb9bUxqYRF6sotrtnhsinb9q6q55aB7YrTwr/+I=
+

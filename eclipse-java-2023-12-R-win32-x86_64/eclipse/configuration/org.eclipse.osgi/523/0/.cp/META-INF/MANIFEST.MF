@@ -1,0 +1,102 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.adt.abap.dev.tools.release.notes.ext;sing
+ leton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.204.0,4.0.0)",org.ec
+ lipse.core.runtime;bundle-version="[3.29.0,4.0.0)",org.eclipse.core.r
+ esources;bundle-version="[3.19.100,4.0.0)",org.eclipse.jface.text;bun
+ dle-version="[3.24.100,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.
+ 21.100,4.0.0)",org.eclipse.ui.workbench.texteditor;bundle-version="[3
+ .17.100,4.0.0)",com.sap.adt.logging;bundle-version="[3.40.0,4.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Eclipse-ExtensibleAPI: true
+Bundle-Name: %pluginName
+Bundle-Version: 3.40.0
+Bundle-Localization: plugin
+Build-Jdk-Spec: 17
+Created-By: Maven Archiver 3.6.0
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesEditor.class
+SHA-256-Digest: pmgbOM8lQ3+OSMn2Fj/Fzu3HeSiUwZN1kMAAX/BhzwA=
+
+Name: plugin.xml
+SHA-256-Digest: +gpA3L3tNO6ePyAOHpeGXdTvaIo+MRXefIYs09lsCM0=
+
+Name: survey/survey.html
+SHA-256-Digest: blWSIK6v/OJMjnpftreXZkrBWRiUiCzRdzIOBlVdp1k=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/SurveyHand
+ ler.class
+SHA-256-Digest: DDachVdZg+8jXcfRb5GA9NmTfQMgMvm/WkDMG/fIOVI=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesEditor$AdtReleaseNotesLocationListener.class
+SHA-256-Digest: 6gZtHLBSmykVnaT5J3GI9JiJd1eqGJQgUzpLMN5kdbQ=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesEditorInputPersist.class
+SHA-256-Digest: dk5r8nl2X5TsnmI78IO2yxk9e4TDt4wHCLVB1NZH6RI=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesInfo.class
+SHA-256-Digest: 9NKr0zLy9MPGvZvBD0d+CB1U0aieazn0oCc12WExOq0=
+
+Name: icons/etool/ABAP.png
+SHA-256-Digest: VEuofsGv6SQkNb4iQYHltss2MXLKoSdN3KmL9PZ1oUc=
+
+Name: releasenotes/releasenotes.properties
+SHA-256-Digest: LGcvOgPkoMgK7R2OyDbFnBiwCpCWr8LOnDubiKxVyJg=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/messages/M
+ essages.properties
+SHA-256-Digest: gl4Xstecbn4W/YAe7enbNLvWV/SGDrpEFS7pqHZTiLU=
+
+Name: intro/css/sample.css
+SHA-256-Digest: esCgmpqRWdPA0kiiEMTMjficLQD7c80ZWJN0kkXXyFI=
+
+Name: intro/css/graphics/picto/abap_standard_doc.svg
+SHA-256-Digest: 4qEwJws7g8u6fhCgXTNFIOhKu+/XxWHiTE0y8LKkMzw=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abap.de
+ v.tools.release.notes.ext/pom.xml
+SHA-256-Digest: KhymDxhPYXQYzNz6Uq1hb9IRoTtyUJJFtyMK2ks3vpE=
+
+Name: icons/etool/ABAP@2x.png
+SHA-256-Digest: uL7wRNXkJmHdLCNxlzITNS3gt20kS0yNRHq2rn4Hgfk=
+
+Name: plugin.properties
+SHA-256-Digest: x2zyWFAZoQV7S9sd8NrEdgK0ByLKUjMOQV7bz9Ocom8=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesStartup.class
+SHA-256-Digest: eqcI46vohpetB2Y+NVI4G5UyP0Yx0pk7gowV8qf37sQ=
+
+Name: intro/introABAPWhatsnew.xml
+SHA-256-Digest: wZNFHB3c41GH0+onaZBysqwfYy4dIh/8KNv1zwY0P/c=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesEditorInput.class
+SHA-256-Digest: 6t62MxEZxjFho+hsdGXCo/vmj73oJaYIh8HL3y3KeWI=
+
+Name: META-INF/maven/com.sap.adt.installation.core/com.sap.adt.abap.de
+ v.tools.release.notes.ext/pom.properties
+SHA-256-Digest: MMlVaABK41M+kZAszmEBo6KBHaMteUsPyMqpFgH+b+M=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesDummyAutoCloseEditorInput.class
+SHA-256-Digest: EyFzxaJjAVmDmDtYROFAhSdWbhw+YrL+W/+PkuUH6PM=
+
+Name: survey/survey.properties
+SHA-256-Digest: ZveeLhbUo64RZlQanHeauR+SjsTpsOmY8HDwxLsR/qQ=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/AdtRelease
+ NotesStartup$1.class
+SHA-256-Digest: pTwB1qoD5kqh1S2W9R7K+1TrcWOCxmVQgH2xHW8ywCs=
+
+Name: com/sap/adt/abap/dev/tools/release/notes/ext/internal/messages/M
+ essages.class
+SHA-256-Digest: VRqDaNwD7xXMbPBB3H80Zri/42i1/lvxTCM2LDClb98=
+

@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.ide.support.doc.user.ext;singleton:=true
+Bundle-Name: %Bundle-Name
+Bundle-Version: 1.24.0
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.11.0,4.0.0
+ )",org.eclipse.ui.intro;bundle-version="[3.4.300,4.0.0)",org.eclipse.
+ ui.intro.universal;bundle-version="[3.2.800,4.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:ssh://git.wdf.sap.corp:29418/IDE/sup
+ port.collector.git;path="gen/tmp/src/com.sap.ide.support.doc.user.ext
+ ";commitId=1fec6a8a6f77f7ceaf13efda0b65630637587a97
+Bundle-Vendor: %BundleProvider_xgrp
+Build-Jdk-Spec: 17
+Created-By: Maven Archiver 3.6.0
+
+Name: create.dir
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: intro/css/sample.css
+SHA-256-Digest: 8o0/h5Y13kvoCCQXghPmjFdDmjmMye2Qpfml7naeV4k=
+
+Name: plugin.xml
+SHA-256-Digest: vVGdiKASmxNVukRJY2N9F90+RVm4SgE9uCuy0naiulw=
+
+Name: book.css
+SHA-256-Digest: zk+eb2dEGSnA4OPrvNVXwiCm4MzyX/Cm8sCIBV7okq0=
+
+Name: META-INF/maven/com.sap.ide.support/com.sap.ide.support.doc.user.
+ ext/pom.properties
+SHA-256-Digest: WKTqan7Y/AbmD5+oYROAeo/yhX1lnfL6+mqGCxwYr00=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: IZ/htCAGrWkHpWppDoKWokYKJE9I5ZBUv3cv2DBIXNA=
+
+Name: intro/css/graphics/picto/abap_project_doc.svg
+SHA-256-Digest: tiuHw70B9h5a6mXoQN1EvNVoOWABF+2C3/d6pvySwBM=
+
+Name: intro/introABAPSupportOverview.xml
+SHA-256-Digest: yk2WJqje6+4rf47JcMpnXPM9gxEOYgTXGdQR+hrsWkA=
+
+Name: META-INF/maven/com.sap.ide.support/com.sap.ide.support.doc.user.
+ ext/pom.xml
+SHA-256-Digest: oOLGorM7U9GSC5ORro+UWYq0pk0XkPOEHcDjvCQLEP0=
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.tools.base"
+      label="%featureName"
+      version="3.40.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.sap.adt.fwk.ci" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.sap.adt.activation"
+         download-size="120"
+         install-size="285"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.tools.core.ui"
+         download-size="1974"
+         install-size="3897"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.tools.core"
+         download-size="1027"
+         install-size="2450"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.ris.metadata"
+         download-size="49"
+         install-size="107"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.ris.model"
+         download-size="312"
+         install-size="802"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.ris.search"
+         download-size="153"
+         install-size="335"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.packages"
+         download-size="292"
+         install-size="757"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.tools.core.base"
+         download-size="386"
+         install-size="911"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.transport"
+         download-size="203"
+         install-size="485"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.transport.ui"
+         download-size="18"
+         install-size="33"
+         version="3.40.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sap.adt.tools.filesystem"
+         download-size="205"
+         install-size="472"
+         version="3.40.0"
+         unpack="false"/>
+
+</feature>

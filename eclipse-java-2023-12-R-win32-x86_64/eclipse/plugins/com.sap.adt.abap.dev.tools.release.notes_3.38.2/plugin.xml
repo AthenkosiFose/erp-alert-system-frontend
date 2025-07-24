@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+   <extension point="org.eclipse.help.toc">
+      <tocIcon id="SAPid" openIcon="images/sap_toc_open.gif"
+               closedIcon="images/sap_toc_closed.gif"/>
+      <toc file="toc.xml" primary="true"/>
+   </extension>
+</plugin>

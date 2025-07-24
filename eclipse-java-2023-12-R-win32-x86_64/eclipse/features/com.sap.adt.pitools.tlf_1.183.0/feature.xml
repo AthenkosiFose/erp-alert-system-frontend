@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.pitools.tlf"
+      label="%pitools_tlf_featureName_xgrp"
+      version="1.183.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %pitools_tlf_description_xtxt
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <includes
+         id="com.sap.adt.common"
+         version="1.183.0"/>
+
+   <includes
+         id="com.sap.adt.datatools"
+         version="1.183.0"/>
+
+   <includes
+         id="com.sap.adt.pitools"
+         version="1.183.0"/>
+
+   <includes
+         id="com.sap.adt.pitools.npm"
+         version="1.183.0"/>
+
+</feature>

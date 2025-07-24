@@ -1,0 +1,230 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: TTBuf7m20beMPRBp19eq/xZs3+MPM
+ ZKJr0Av1P4Ugb0=
+SHA-256-Digest-Manifest: Hze9zzvwta9YghgQo5TVEo5nmkwbWNUcDrlbdZv5ktY=
+Created-By: 1.8.0_202 (Oracle Corporation)
+
+Name: icons/obj/delete_obj.png
+SHA-256-Digest: bmYbv7ZHbaZhzLSldASMQvHYE+lBudu2zhbK6mORiOk=
+
+Name: plugin.xml
+SHA-256-Digest: 4R6v0wUg6UZ981F10TFa2OQNgEzP7aIkPH47VJ1u4XE=
+
+Name: icons/etool/edit_textsymbol.png
+SHA-256-Digest: JlQeTemiaVGtnnxOqZbXHWLcF0P+m16ysh/GqzRNVsg=
+
+Name: icons/etool/newclass_wiz.png
+SHA-256-Digest: KToaDJTt5m6NLH7o4Gnw1ZKfV34E8Igc7aEG1iVXfqw=
+
+Name: icons/etool/alias@2x.png
+SHA-256-Digest: FJwfSKYolSlG6N9Ma+b0l4ELzRq0lqzRiWmJth5FAME=
+
+Name: icons/etool/super_co.png
+SHA-256-Digest: UQ7W6qrvfnNnwrzj2BYqeCVq8bUQqRW9LyfsXOP39VU=
+
+Name: icons/obj/Annotation@2x.png
+SHA-256-Digest: bmaZFSW8tOPs2ie68qIQL4bTMfDP/j/jv35Y2fg1G8Q=
+
+Name: icons/obj/change_obj@2x.png
+SHA-256-Digest: gjRcgj2vmbVp6aSkBi/VitalWJTXVMMIWc5hZ/n54+g=
+
+Name: icons/etool/smartmode_co@2x.png
+SHA-256-Digest: dGYzQphw8hqHF3GlXk4UTryWX01Fa+gjXXfbYLavRY8=
+
+Name: icons/obj/delete_obj@2x.png
+SHA-256-Digest: N0qVJ8GMEgwbv74/e0tDH8Yl2pHmOSV3PgLkrHiwB8s=
+
+Name: icons/etool/history_list.png
+SHA-256-Digest: qq9Zm9lsconHrdz+TouRB9dfjolyuycDG8SsMbFkxOk=
+
+Name: icons/etool/success@2x.png
+SHA-256-Digest: c0OgqrOh2yi7028qnx3xV7TbvTDy804PKpIm9/wDCKg=
+
+Name: icons/etool/super_co@2x.png
+SHA-256-Digest: u71rjz+DO/BJzO5m8uxqmyuIMLpsEq3RBlKRrAG8Sj4=
+
+Name: icons/obj/changeset_obj.png
+SHA-256-Digest: 0UNNWe+Y7/Tw49obIPRIPiXOE+hyqkg8a7MGaV8GLBo=
+
+Name: icons/obj/change.png
+SHA-256-Digest: zGvUkKCAOYypbn5ElkdFQ870u8kyC+FWobvuuXlwe4k=
+
+Name: icons/etool/success.png
+SHA-256-Digest: Uk7jOsG6Tj0bY1PO4vWrfISAhSxFCwMOY+y0E3OdJHE=
+
+Name: icons/etool/arrow_left.png
+SHA-256-Digest: QxSN6VrkW9B/2StL5I0PTy+6tZrCV4k9NR/zeJQdAOw=
+
+Name: icons/etool/arrow_left@2x.png
+SHA-256-Digest: NLV4b1YU6zLwQg+SkGHTzM48sE6jSXY2anrEi9qIagc=
+
+Name: icons/etool/rename@2x.png
+SHA-256-Digest: 7dyU/SeoZ0XPQHOhRvcNh55xYevDJNzCbl77s4GXuC8=
+
+Name: icons/obj/calendar_clock.png
+SHA-256-Digest: UTMsuclFmnLB4Ps+87OzAWRV396KUVEbDN2kJQy0xrE=
+
+Name: plugin.properties
+SHA-256-Digest: AMrKHDgIfIq5vQyrNC1YWLF28NN2IuXumrwStvq0B30=
+
+Name: icons/etool/history_list@2x.png
+SHA-256-Digest: 0MrFN7HrzcbvSw6uqArknUOQ4d+MJtYdu4Of0GHR1U0=
+
+Name: icons/etool/add_att.png
+SHA-256-Digest: gTU5eqY5NBuQfhD24fBvXidIunEwFUIM+nqj46i5LVw=
+
+Name: icons/ovr/added_dec.png
+SHA-256-Digest: 5j64rmUQZgQu8DIW0HFUpu6hXVuLCyMai+ML3/AIkG0=
+
+Name: icons/etool/alias.png
+SHA-256-Digest: nqXIVAVsnBw9AmI4t/ods0W35UpyTBq9S1PWfVS4Jkc=
+
+Name: icons/etool/smartmode_co.png
+SHA-256-Digest: 0v4O55sq7fxKo55xG75A57JLAzGs//q/nLwcLpIkDjU=
+
+Name: icons/obj/Column.png
+SHA-256-Digest: Qt/2BfMdQdk80a5Uef1vVCUWzJA9ZoBOTIt03Uobzn0=
+
+Name: icons/obj/info_obj@2x.png
+SHA-256-Digest: xODGTEP2yWZjYdwIjx8KYmkw5bDv+jo8sQLenIJxHaQ=
+
+Name: icons/etool/newint_wiz@2x.png
+SHA-256-Digest: xpK+tTZ1O3+Cabl7cKo+GRwr0vgVxxvTbYBLBEQzBbg=
+
+Name: icons/obj/correction_linked_rename.png
+SHA-256-Digest: 5qWQ3I/Db/F5xQUWRFSo+M4WfBCqWWnb1kOcAHr0N10=
+
+Name: icons/etool/message_error.png
+SHA-256-Digest: BJMYsKgEK3+8hKn6jxZBgBO4NZVIbPosq24xBPdiKds=
+
+Name: icons/etool/convert@2x.png
+SHA-256-Digest: DtXGl43tTHA0xBkkiwBqi+5SLFQSamqXXSY3Wbppeos=
+
+Name: icons/etool/arrow_right@2x.png
+SHA-256-Digest: 3H4AdK89xIOXMmAWN4byda0XTFbwNBUiSgQR4p8Hd9U=
+
+Name: icons/obj/viewDefinition.png
+SHA-256-Digest: NdoP+h3olI7b3RTfzmfE00m1j7n43r9VAHexCczY4Qk=
+
+Name: icons/obj/correction_move.png
+SHA-256-Digest: XL1WvE9zDtbWt6DdrvNCixeZHt96SVS+7uB0ElaFDQ8=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.refactoring.ui/pom.
+ xml
+SHA-256-Digest: fsNeQ60ZHe/3P4FCZ4QI8ry9FXVPg45G5BCttewXT3s=
+
+Name: icons/obj/correction_linked_rename@2x.png
+SHA-256-Digest: BFh+MHj2K+1m0ebxRqGyncTfFWgq5vG660eMqFFzdhk=
+
+Name: icons/obj/structure_obj@2x.png
+SHA-256-Digest: UJ1zHcv53mXfxf7YKbP1omSDZSZvZ1HUnLb2rXTY374=
+
+Name: icons/etool/add_textsymbol.png
+SHA-256-Digest: 6IKZKWhfwKBj0T20TPXioPsqr3ZX1s/UHg7lxg861ic=
+
+Name: icons/obj/change@2x.png
+SHA-256-Digest: DegAiXlQBDgdZE/vPzsqLBPT2scyMuFjqkKBYgCJxfA=
+
+Name: icons/obj/warning_obj.png
+SHA-256-Digest: czR6T1judvsksin+I6nkFCU80MuasJpHViVYjALui9Q=
+
+Name: css/e4-dark_quickfixview_preferencestyle.css
+SHA-256-Digest: FNdKGGe1zw0pW05EKVb5yxIBCjSqcldDchfGs0FnU5A=
+
+Name: icons/obj/warning_obj@2x.png
+SHA-256-Digest: GaqMZ4GrK76Zbn0oNu453dPtHYo0fCcxdvSQ74EZwvo=
+
+Name: icons/obj/quickassist_obj@2x.png
+SHA-256-Digest: Z/wEVcFmII4XJ9E+KzhmBzcu0ood4UhSI5WzqrDVKX0=
+
+Name: refactoring_ui.jar
+SHA-256-Digest: W8Er1XbTvEqcI4Dv7EyJ5ZavxCNAluaD08/W100l0Qw=
+
+Name: html/quickfixResult.html
+SHA-256-Digest: aeA+WAf2Ag1WCxtGa0efOZo3AR2X1N1nI8r9tW/RJjE=
+
+Name: icons/obj/lrun_obj@2x.png
+SHA-256-Digest: rh4JVOeC5q2ihitCw5EWCjmovnlvWicALxzagohypF4=
+
+Name: icons/etool/add_textsymbol@2x.png
+SHA-256-Digest: OJDh3QchOhrLLCf84UTMipDZOULckQjTY1ii0itX71A=
+
+Name: styles/QuickFixProposalStyleSheet.css
+SHA-256-Digest: 2iuIChP11mEoHBrCqz9BjFXKzZGcdHvG8nV9bdR2ms8=
+
+Name: icons/obj/database_table@2x.png
+SHA-256-Digest: 9nR0aeNqlgcv6W9W7kySA6OnlPPv0j3SThJE2Hjf3+s=
+
+Name: icons/obj/viewDefinition@2x.png
+SHA-256-Digest: an/JrCayPjNKnXlzh8iDPRs3j93cxIXjzx+/yB7lHTE=
+
+Name: icons/obj/structure_obj.png
+SHA-256-Digest: Z9/Ph91O+nDsXx8EOYeKFEqJz2A+q7wg/EBcGNqEXbo=
+
+Name: icons/obj/info_obj.png
+SHA-256-Digest: gQz6EaHXBDlF5oLmdxJtO+b8yMNrJH+zLwR6eB7lIHI=
+
+Name: icons/etool/remove_literal@2x.png
+SHA-256-Digest: Xuk5/oaseWnEPenUoC27hGxvMZwD/4lAZa18n03SAy0=
+
+Name: icons/obj/Column@2x.png
+SHA-256-Digest: bwu5R52iU+k/bzQIxVuSCLtkoLV2bdqJ6EX3SQfaUUg=
+
+Name: icons/etool/edit_textsymbol@2x.png
+SHA-256-Digest: p9j/3W4zqZr0TNeyTp66F+pKDI6/bUq39xbq0Y/Eltw=
+
+Name: icons/etool/newint_wiz.png
+SHA-256-Digest: iZG2sp2Cutid6cDAD5V5FW8D+lkhOrSS9Dv+/aqJEG8=
+
+Name: icons/etool/arrow_right.png
+SHA-256-Digest: gIjdKBDOPWXM3D/EC/UAwedW9oGipQ8MRxQvPNvz0iM=
+
+Name: icons/etool/remove_literal.png
+SHA-256-Digest: f3aPKU8G6BVYN46vlpCtEV96WE3j7UuGpdPWENTeeQg=
+
+Name: icons/etool/add_att@2x.png
+SHA-256-Digest: 8Tc8IujQmF71gV+YlCQAdlHApYY61Yt9js4lXvJXYPM=
+
+Name: icons/obj/changeset_obj@2x.png
+SHA-256-Digest: cv1ZA8zX0d1wkKOqanttcPUcAdIdhNr+sCFlKhv2MPo=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.refactoring.ui/pom.
+ properties
+SHA-256-Digest: 5WysWJuwTEQHC7HSlbk4Yxd0UH7YmyLTJe79XJ8MDCQ=
+
+Name: icons/ovr/added_dec@2x.png
+SHA-256-Digest: vUJiT3g0IuK0dOLovsWrFxMk+zaCaF39LDseGuHCYnE=
+
+Name: icons/obj/quickassist_obj.png
+SHA-256-Digest: H8KMHD3h2QSQEPEWOM8aOPtnmR/Jf0Z5NvkHVi37EpU=
+
+Name: icons/obj/change_obj.png
+SHA-256-Digest: 05YRuyOwBKrPbiXC0J76XkRlwSYCnyZRnHbaAlgjHbc=
+
+Name: icons/etool/rename.png
+SHA-256-Digest: nAaoEUrQ/3olpSaqvodOnmHYGyHK8z3ZkdN5R+B2ywA=
+
+Name: icons/obj/database_table.png
+SHA-256-Digest: I5xiPmEf56shCS57J5ZrT0anOlqhPC+UuBVwd/O6KLg=
+
+Name: icons/obj/lrun_obj.png
+SHA-256-Digest: DvI/qw0VKyi2yBBKC/3JGqLYmJJzKuv4b/rLd/7Xe/I=
+
+Name: icons/etool/convert.png
+SHA-256-Digest: 9U3fzLThHe85V3u/YcF9pym/DOvRx5FJK62a4PdhuNs=
+
+Name: icons/etool/newclass_wiz@2x.png
+SHA-256-Digest: 1pIAQtd4rFIfc7F2lh8RHbYDh1Vzu6ZuokW8l1jit+Q=
+
+Name: icons/obj/Annotation.png
+SHA-256-Digest: HywZLZDS5JeHh0Uz1zk34Q0bNc/90tQVWJHWQEqyn2c=
+
+Name: icons/obj/correction_move@2x.png
+SHA-256-Digest: 7cyVmvPhod055NynrLLZcoUcqjPOPrEkrILVRC8R7kg=
+
+Name: icons/obj/calendar_clock@2x.png
+SHA-256-Digest: 3JuCxE/bHWLg8zf0eKKYCN07Tmg+CnkehidgRutUuBk=
+
+Name: icons/etool/message_error@2x.png
+SHA-256-Digest: CuzeZNFsz7q4a/IUP+aF7l9b1Q+6rwuaiWTv/ahu1o0=
+

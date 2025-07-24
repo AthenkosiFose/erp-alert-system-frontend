@@ -1,0 +1,83 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: XAdfZBxnDbQvsdmE9pc/ySlqvubce
+ MX8+xO7V5XnkLU=
+SHA-256-Digest-Manifest: oQ4OsSedlygdf0HHfHYSKqua2Bp7mkLuZOjwtE+Tm0Q=
+Created-By: 1.8.0_202 (Oracle Corporation)
+
+Name: plugin.xml
+SHA-256-Digest: xa93Y2LWwUGycGRhB6Ou2IjCMhRk5IvbirfTxR3d62s=
+
+Name: html/stage2_empty@2x.png
+SHA-256-Digest: wps9BRK9Pv9KnloNF928bt5Z5cBa2GgyRY5mVn3Q0Kc=
+
+Name: html/intro@2x.png
+SHA-256-Digest: jmHGGLBtQ5LGjirFJba7NQUPuvrn6Stu7Hnp+aRUcMg=
+
+Name: html/stage3_empty.png
+SHA-256-Digest: 4J/+uDWqIKtN7qFTOwoIqlY+cSdPd3bVXNy+x9HaNrM=
+
+Name: html/stage1_empty@2x.png
+SHA-256-Digest: km+t3k8wYak7RpNQgsRcT1yV5KHahnFnljXelukcOy0=
+
+Name: html/stage2_filled@2x.png
+SHA-256-Digest: T6PAEhhKowinvMnE0gTxJRn1nExXWLP11hb6IvNQk4g=
+
+Name: html/stage2_filled.png
+SHA-256-Digest: nc5FLX3rJFscMGDrkJJeAUnOh+QJgL4pKqVfIDwqU6Q=
+
+Name: icons/view/feature_explorer_view.png
+SHA-256-Digest: wbNRyM9fTXYlsFMVDNJKE9BSt4kL9iTGhYop/RSGk1E=
+
+Name: html/stage3_empty@2x.png
+SHA-256-Digest: taNFMLtYUabri8Ld+nZQ4Vb6/xduRuHO6W71fW+vDqM=
+
+Name: html/tourcomplete@2x.png
+SHA-256-Digest: JrJMsy4Mk5d5OjVjz8n3qcbKU07oiYjz5bUbq4zuoAE=
+
+Name: html/stage1_filled@2x.png
+SHA-256-Digest: si7pnjRHcRffxuzPMskpqdUdTGDcMFLho8MhokG+fdE=
+
+Name: html/stage3_filled.png
+SHA-256-Digest: S8u7SsadywSl18Z9Mx9qmhvy2YMb8vJYQ27AGqCGNPQ=
+
+Name: plugin.properties
+SHA-256-Digest: +FuTwx01A5JJBE7yMabRKyXaGaA/E4Mgi5Y1QqsmwwM=
+
+Name: icons/view/feature_explorer_view@2x.png
+SHA-256-Digest: cYOKnGcnybiLFK4/r5LbbM24kd3Q870uOIO30NwoA/w=
+
+Name: html/tourcomplete.png
+SHA-256-Digest: vTzGdcZmiDZZ+V4i6WczAieUDwWdC52pne3qLppgWnY=
+
+Name: html/stage2_empty.png
+SHA-256-Digest: yUL4EFUo/PlbGRFogUQLJvbblPSzZBp8YvCBUGs6rVM=
+
+Name: html/stage3_filled@2x.png
+SHA-256-Digest: 6IAdDqPce888Z7vPkiW+Ji15BdMpaXxNb2YmewOJyBQ=
+
+Name: css/e4-dark_featureexplorer_preferencestyle.css
+SHA-256-Digest: QIyiSumQzymhrA7TunFTncusup9OI/xrPmXLeUrLiw4=
+
+Name: featureexplorer_ui.jar
+SHA-256-Digest: Ho0XoW5gaM+PS9vqVe3efeiLTVUZrHciOuqOg+5V1kQ=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.featureexplorer.ui/
+ pom.xml
+SHA-256-Digest: UmMwTWBao251lYUl+9FU613PxFklyvZgObK0y9FIoQA=
+
+Name: html/intro.png
+SHA-256-Digest: IB46dmWmkj/nXypG0qQvoLHBq1thGfaqATgejO4sKrI=
+
+Name: html/stage1_filled.png
+SHA-256-Digest: 1b+/1sp5ZBGvV9VwdIKzy5L0L5ovchRm9El/edbiMao=
+
+Name: META-INF/maven/com.sap.adt.tools/com.sap.adt.featureexplorer.ui/
+ pom.properties
+SHA-256-Digest: XpvxzqY39NGnPo9EITRSh5Q7Id/tU3lkNXfQRoSmsjE=
+
+Name: html/featureExplorerView.html
+SHA-256-Digest: 5uTLCoMmha4FB3Dc4GzCbutfQeslusWfGvUDdbUn8U8=
+
+Name: html/stage1_empty.png
+SHA-256-Digest: e75kkWz750d8+iqVVN9NEzAJ4znNqnqyLYNrUbKHHHs=
+

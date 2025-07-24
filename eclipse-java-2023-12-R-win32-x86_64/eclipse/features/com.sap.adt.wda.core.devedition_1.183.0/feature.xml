@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.sap.adt.wda.core.devedition"
+      label="%wda_devedition_featureName"
+	  version="1.183.0"
+      provider-name="%providerName"
+      plugin="com.sap.adt.branding">
+
+   <description>
+      %wda_devedition_description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <includes id="com.sap.adt.wda.core" version="1.183.0" />
+
+</feature>

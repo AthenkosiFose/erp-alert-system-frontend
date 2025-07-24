@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+
+<template
+		name="annotateView"
+		id="com.sap.adt.cds.ddlx.ui.template.annotateView"
+		description="%template_annotateView_xmit"
+		context="com.sap.adt.cds.ddlx.ui.template.context.type.ddlx.creation"
+		autoinsert="false"
+		deleted="false"
+		enabled="true">@Metadata.layer: ${layer}
+annotate view ${view_name}
+	with 
+{
+	${element_name};
+	${cursor}
+}</template>
+
+<template
+		name="annotateViewWithParameters"
+		id="com.sap.adt.cds.ddlx.ui.template.annotateViewWithParameters"
+		description="%template_annotateViewWithParameters_xmit"
+		context="com.sap.adt.cds.ddlx.ui.template.context.type.ddlx.creation"
+		autoinsert="false"
+		deleted="false"
+		enabled="true">@Metadata.layer: ${layer}
+annotate view ${view_name}
+	with parameters
+		${parameter_name}
+{
+	${element_name};
+	${cursor}
+}</template>
+
+<template
+		name="annotateEntity"
+		id="com.sap.adt.cds.ddlx.ui.template.annotateEntity"
+		description="%template_annotateEntity_xmit"
+		context="com.sap.adt.cds.ddlx.ui.template.context.type.ddlx.creation"
+		autoinsert="false"
+		deleted="false"
+		enabled="true">@Metadata.layer: ${layer}
+annotate entity ${entity_name}
+	with 
+{
+	${element_name};
+	${cursor}
+}</template>
+
+<template
+		name="annotateEntityWithParameters"
+		id="com.sap.adt.cds.ddlx.ui.template.annotateEntityWithParameters"
+		description="%template_annotateEntityWithParameters_xmit"
+		context="com.sap.adt.cds.ddlx.ui.template.context.type.ddlx.creation"
+		autoinsert="false"
+		deleted="false"
+		enabled="true">@Metadata.layer: ${layer}
+annotate entity ${entity_name}
+	with parameters
+		${parameter_name}
+{
+	${element_name};
+	${cursor}
+}</template>
+
+</templates>

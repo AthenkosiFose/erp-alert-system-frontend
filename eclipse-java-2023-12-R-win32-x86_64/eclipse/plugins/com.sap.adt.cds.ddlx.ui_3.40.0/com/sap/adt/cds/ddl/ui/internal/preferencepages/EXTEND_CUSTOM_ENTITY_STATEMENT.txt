@@ -1,0 +1,5 @@
+extend custom entity CustomEntity with
+{
+  Element : abap.int4;
+  Assoc   : association to OtherEntity on CustomEntity.Element = Assoc.OtherEntityElement;
+}

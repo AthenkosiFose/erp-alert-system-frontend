@@ -1,0 +1,17 @@
+requires.0.namespace = org.eclipse.equinox.p2.iu
+requires.0.name = org.eclipse.wst.ws_ui.feature.feature.group
+requires.0.greedy = false
+requires.0.optional = false
+requires.0.range = [3.5.0,4.0.0)
+
+requires.1.namespace = org.eclipse.equinox.p2.iu
+requires.1.name = org.eclipse.graphiti.feature.feature.group
+requires.1.greedy = false
+requires.1.optional = false
+requires.1.range = [0.10.0,1.0.0)
+
+requires.2.namespace = org.eclipse.equinox.p2.iu
+requires.2.name = org.eclipse.emf.query.feature.group
+requires.2.greedy = false
+requires.2.optional = false
+requires.2.range = [1.7.0,2.0.0)

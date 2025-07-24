@@ -1,0 +1,11 @@
+@Metadata.layer: #CUSTOMER
+annotate view Businesspartnercontact with
+  parameters
+    @EndUserText.label: 'My parameter'
+    p_preferredLanguage
+{
+  @UI.hidden: true
+  FirstName;
+  @UI.hidden: false
+  LastName;
+}
