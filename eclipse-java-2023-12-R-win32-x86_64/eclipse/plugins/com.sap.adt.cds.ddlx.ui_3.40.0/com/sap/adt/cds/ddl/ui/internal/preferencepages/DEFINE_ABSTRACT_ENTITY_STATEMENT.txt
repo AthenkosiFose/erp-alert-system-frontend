@@ -1,7 +1,0 @@
-define abstract entity AbstractEntity
-  with parameters p_carrid:s_carrid
-{
-  key KeyElement : abap.int4;
-      Element    : domainName;
-      Assoc      : association to OtherEntity on Element = Assoc.OtherEntityElement;
-}

@@ -1,5 +1,0 @@
-extend abstract entity AbstractEntity with
-{
-  Element : abap.int4;
-  Assoc   : association to OtherEntity on AbstractEntity.Element = Assoc.OtherEntityElement;
-}

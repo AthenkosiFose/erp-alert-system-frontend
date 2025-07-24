@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_wIWr0MMXEeiKILUrKoC-uw">
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ABUoQMMbEeiKILUrKoC-uw" featurename="menuContributions" parentElementId="xpath:/">
-    <elements xsi:type="menu:MenuContribution" xmi:id="_GAYAoMMbEeiKILUrKoC-uw" elementId="com.sap.adt.cds.ddlx.ui.menucontribution.pe" positionInParent="before=com.sap.adt.tools.core.ui.duplicate" parentId="org.eclipse.ui.navigator.ProjectExplorer#PopupMenu">
-      <children xsi:type="menu:DynamicMenuContribution" xmi:id="_ub53QMfcEeie1bIPTxkVXg" elementId="adt.tools.cds_com.sap.adt.cds.ddlx.ui.menu.contribution.create_ddlx" label="" contributionURI="bundleclass://com.sap.adt.cds.ddlx.ui/com.sap.adt.cds.ddlx.ui.internal.menu.contributions.CreateMetaDataExtensionContextMenuOnDdlsNode"/>
-    </elements>
-  </fragments>
-</fragment:ModelFragments>
